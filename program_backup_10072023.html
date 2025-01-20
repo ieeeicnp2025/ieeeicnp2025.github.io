@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>
+        IEEE ICNP 2024
+    </title>
+    <link rel="icon" href="./assets/img/icnp_logo.png" type="image/png">
+    <link href="./assets/css/google-font.css" rel="stylesheet">
+    <link href="./assets/css/toolkit-minimal.css" rel="stylesheet">
+    <link href="./assets/css/application-minimal.css" rel="stylesheet">
+    <link href="./assets/css/iqua-pub.css" rel="stylesheet">
+<link href="./assets/css/coming-soon.css" rel="stylesheet">
+    <style>
+        /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+        /* this chunk of css is not part of the toolkit :) */
+        body {
+            width: 1px;
+            min-width: 100%;
+            width: 100%;
+        }
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise(json)
+        });
+    </script>
+</head>
+<body>
+<!-- All other page content -->
+<nav class="navbar navbar-default navbar-static-top navbar-padded app-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="./index.html" style="padding-top: 10px; padding-bottom: 60px">
+            <img src="./assets/img/icnp_logo.svg" height="50" class="d-inline-block icon-align-vertical-middle"
+                 alt="ICNP"/>
+        </a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed p-x-0" style="padding-top: 19px; padding-bottom: 19px"
+                    data-toggle="collapse"
+                    data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown"><a href="./index.html" class="smoothScroll dropdown-toggle" role="button"
+                                        aria-expanded="false">Home</a></li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Calls<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_self" href="./cfp.html">Call for papers</a></li>
+                        <li><a target="_self" href="./cfd.html">Call for posters/demos</a></li>
+                        <li><a target="_self" href="./cfw.html">Call for workshops</a></li>
+                        <li><a target="_self" href="./travelgrant.html">Travel Grants</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Submission<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_self" href="./submission.html">Paper submission</a></li>
+                        <li><a target="_self" href="./camera.html">Camera-ready</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="./program.html" class="smoothScroll dropdown-toggle" role="button"
+                                        aria-expanded="false">Program<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_self" href="./program.html">Conference Program</a></li>
+                        <li><a target="_self" href="./acceptedpapers.html">Accepted Papers</a></li>
+                        <li><a target="_self" href="./keynote.html">Keynote</a></li>
+                        <li><a target="_self" href="./panel.html">Panel</a></li>
+                    </ul>
+
+                </li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Workshops<span class="caret"></span></a>
+                    <!-- Workshops list -->
+                    <ul class="dropdown-menu" role="menu">
+                        <!--<li><a target="_self" href="./workshops.html">Workshops</a></li>-->
+                        <li><a target="_blank" href="https://thu.aitrans2024.online/">ICNT</a> </li>
+
+
+                        <!--<li><a target="_blank" href="https://cec23.github.io/">Cloud-Edge Continuum (CEC) Workshop</a>
+                        </li>-->
+                        <!--<li><a target="_blank" href="https://cec23.github.io/">CEC</a>
+                        </li>
+                        <li><a target="_blank" href="https://qualitativesemantic.wordpress.com">6G-SQSC</a>
+                        </li>-->
+                        <!--<li><a target="_blank" href="https://taisen.dei.uc.pt/index.html">TAISEN</a>
+                        </li>-->
+                        <!--
+                        <li><a target="_blank" href="https://spritz.math.unipd.it/events/2021/Cps_sec2021/index.html">CPS-Sec</a>
+                        </li>
+                        <li><a target="_blank" href="http://cosafe.org.uk/icav2021.html">ICAV</a></li>
+                        <li><a target="_blank" href="http://fnlab.net/NetCloud21.html">NetCloud</a></li>
+                        <li><a target="_blank" href="https://karthickj.github.io/netverify2021/">NetVerify</a></li>
+                        <li><a target="_blank" href="https://nipaa21.wordpress.com/">NIPAA</a></li>
+                        -->
+                    </ul>
+                    <!-- -->
+                </li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Attendance<span class="caret"></span></a>
+                    <!--Other pages-->
+                    <ul class="dropdown-menu" role="menu">
+                        <!--<li><a target="_self" href="./reception.html">Reception</a></li>-->
+                        <!--<li><a target="_self" href="./banquet.html">Tour and Banquet</a></li>-->
+                        <li><a target="_self" href="./Venue.html">Conference Venue</a></li>
+                        <li><a target="_self" href="./registration.html">Registration</a></li>
+                        <li><a target="_self" href="./travelgrant.html">Travel Grants</a></li>
+                        <li><a target="_self" href="./policies.html">Policies</a></li>
+                        <li><a target="_self" href="./accommodation.html">Accommodation</a></li>
+                    </ul>
+
+                </li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Committee<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_self" href="./tpc.html">Technical program committee</a></li>
+                        <li><a target="_self" href="./committee.html">Organizing committee</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="./sponsors.html" class="smoothScroll dropdown-toggle" role="button"
+                                        aria-expanded="false">Sponsors</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+<div style="padding-top: 00px; padding-bottom: 20px;" class="block">
+    <div class="container">
+        <div class="iqua-pub-header">
+            <h1>Conference Program</h1>
+            <p>The 32nd IEEE <b>International Conference on Network Protocols</b> (ICNP 2024)<br/>
+                Charleroi, Belgium, October 28-31, 2024&nbsp;<a href="https://twitter.com/IEEE_ICNP?ref_src=twsrc%5Etfw"
+                                                                              class="twitter-follow-button" data-show-screen-name="false"
+                                                                              data-show-count="false">Follow @IEEE_ICNP</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="https://www.facebook.com/ieeeicnp"><img src="./assets/img/f_logo_RGB-Blue_58.png" alt="ICNP2024"
+                                                                 height="30" style="float:center; margin-bottom:10px"></a>
+            </p>
+        </div>
+        <p><img class="img-responsive" width="100%" src="./assets/img/sculpture.jpg"/></p>
+       <!-- <p>The workshops will be held on the 10th of October and the main conference will take place on the 11th-13th October.</p>
+
+        <p>This year we will be hosting three workshops:</p>
+        <ul>
+            <li><a href="https://cec23.github.io/">Cloud-Edge Continuum (CEC) Workshop</a></li>
+            <li><a href="https://qualitativesemantic.wordpress.com">6G Enablers: Satellite, Qualitative and Semantic Communications (6G-SQSC)</a></li>
+            <li><a href="https://taisen.dei.uc.pt/index.html">Trust in AI, Services and Networking (TAISEN)</a></li>
+        </ul>
+
+        <p>The detailed programme will be made available in early September.</p>-->
+
+
+        <h2>Agenda</h2>
+        <!--<span><strong>Note: All times listed as US Eastern Daylight Saving Time (EDT)</strong></span><br/>-->
+        <span><strong>Note: All times listed as Universal Time Coordinated (UTC)</strong></span><br/>
+
+        <div class="form-check" id="containerLocalTime">
+            <input class="form-check-input" type="checkbox" value="" id="checkLocalTime"/>
+            <label class="form-check-label" for="checkLocalTime" id="labelLocalTime"></label>
+        </div>
+        <span>Click on the session blocks to navigate to the sessions directly.</span>
+        <div id="svgAgenda"></div>
+        <h2 id="d1">Tuesday, October 10, 2024</h2>
+        <h3 id="workshops"></h3>
+        <p>
+        Workshops will be held at <a href="https://www.icelandhotelcollectionbyberjaya.com/en/hotels/reykjavik/reykjavik-natura" target="_blank"> Reykjavik Natura-Berjaya Iceland</a><br>
+        </p>
+
+        <p><strong><a href="https://cec23.github.io/">Cloud-Edge Continuum (CEC) Workshop</a></strong></p>
+        <p><strong><a href="https://qualitativesemantic.wordpress.com">6G Enablers: Satellite, Qualitative and Semantic Communications (6G-SQSC)</a></strong></p>
+        <!--<p><strong><a href="https://taisen.dei.uc.pt/index.html">Trust in AI, Services and Networking (TAISEN)</a></strong></p>-->
+
+        <!--<h3 id="reception"></h3>
+        <h3><a href="./reception.html" target="_blank">Reception Information</a></h3>
+        -->
+        <h2 id="d2">Wednesday, October 11, 2024</h2>
+
+        <h3 id="opening"></h3>
+        <p><strong>Keynote: Prof. <a href="https://www-net.cs.umass.edu/personnel/kurose.html" target="_blank">Jim Kurose</a><i> (University of Massachusetts Amherst)</i></strong>
+            <br><a href="./keynote.html" target="_blank">Bio and Keynote Abstract</a>
+        </p>
+
+        <h3 id="S1"></h3>
+        <!--<h3><u>Session Chair: Baochun Li</u></h3>-->
+
+        <p><b> Towards Fine-grained and Practical Flow Control for Datacenter Networks </b><br/>
+            <i> Wenxue Li (Hong Kong University of Science and Technology);
+                Chaoliang Zeng (Hong Kong University of Science and Technology);
+                Jinbin Hu (Hong Kong University of Science and Technology);
+                Kai Chen (Hong Kong University of Science and Technology);</i> </p>
+
+        <p><b> mBBR - Improving BBR Performance Over Rate-Limited Mobile Networks </b><br/>
+            <i>Shengtong Zhu (The Chinese University of Hong Kong);
+                Yan Liu (Tencent);
+                Lingfeng Guo (Tencent);
+                Rudolf K. H. Ngan (The Chinese University of Hong Kong);
+                Jack Y. B. Lee (The Chinese University of Hong Kong);
+                Yan Liu (Bytedance); </i> </p>
+
+        <p><b> Disco: A Framework for Dynamic Selection of Multipath Congestion Control Algorithms </b><br/>
+            <i>Furong Yang (ICT CAS);
+                Zhenyu Li (ICT,CAS);
+                Jianer Zhou (Southern University of Science and Technology);
+                Xinyi Zhang (Chinese Academy of Sciences);
+                Qinghua Wu (ICT, CAS);
+                Giovanni Pau (University of Bologna);
+                Gaogang Xie (CNIC CAS; UCAS, China);</i>  </p>
+
+        <p><b> Enabling Load Balancing for Lossless Datacenters </b><br/>
+            <i>Jinbin Hu (Hong Kong University of Science and Technology);
+                Chaoliang Zeng (Hong Kong University of Science and Technology);
+                Zilong Wang (Hong Kong University of Science and Technology);
+                Junxue Zhang (Hong Kong University of Science and Technology);
+                kun Guo (FuZhou University);
+                Hong Xu (Chinese University of Hong Kong);
+                Jiawei Huang (Central South University);
+                Kai Chen (Hong Kong University of Science and Technology);</i> </p>
+
+
+
+
+
+        <h3 id="S2"></h3>
+        <!--<h3><u>Session Chair: Chen Qian</u></h3>-->
+        <p><b> MC-RDMA: Improving Replication Performance of RDMA-based Distributed Systems with Reliable Multicast Support </b><br/>
+            <i>Chengyuan Huang (Nanjing University);
+                Yixiao Gao (Huawei);
+                Wei Chen (Nanjing University);
+                Duoxing Li (Nanjing University);
+                Yibo Xiao (Nanjing University);
+                Ruyi Zhang (Nanjing University);
+                Chen Tian (Nanjing University);
+                Xiaoliang Wang (Nanjing University);
+                Wanchun Dou (Nanjing University);
+                Guihai Chen (Nanjing University);
+                Yi Wang (Nanjing University of Posts and Telecommunications);
+                Fu Xiao (Nanjing University of Posts and Telecommunications);</i> </p>
+
+
+        <p><b> Bifrost: Extending RoCE for Long Distance Inter-DC Links </b><br/>
+            <i> Peiwen Yu (Nanjing University);
+                Feiyang Xue (Nanjing University);
+                Chen Tian (Nanjing University);
+                Xiaoliang Wang (Nanjing University);
+                Yanqing Chen (Nanjing University);
+                Tao Wu (Huawei Technologies Co., Ltd);
+                Lei Han (Huawei Technologies Co., Ltd);
+                Zifa Han (Huawei Technologies Co., Ltd);
+                Bingquan Wang (Huawei Technologies Co., Ltd);
+                Xiangyu Gong (Huawei Technologies Co., Ltd);
+                Wanchun Dou (Nanjing University);
+                Guihai Chen (Nanjing University); </i> </p>
+
+        <p><b> AWEsome-Cache: Dependency-free Rule-caching for Arbitrary Wildcard Patterns in TCAM </b><br/>
+            <i>  Zeyu Luan (Tsinghua University);
+                Qing Li (Peng Cheng Laboratory);
+                Zutao Zhang (Northeastern University);
+                Yong Jiang (Tsinghua University);
+                Meng Chen (Chongqing University);
+                Yu Wang (Peng Cheng Laboratory);
+                Kejun Li (Peng Cheng Laboratory); </i></p>
+
+        <p><b> FASTeller: A Hardware Partial Aggregator for Accurate Flow Counting in Cloud Networks </b><br/>
+            <i> Tong Yun (Tsinghua University);
+                Yinxin Kuang (Tsinghua University);
+                Zhuang Ling (Tsinghua University);
+                Haoyu Song (Futurewei Technologies);
+                Peilong Wang (Baidu.com);
+                Chuwen Zhang (Tsinghua University);
+                Mao Miao (Tsinghua University);
+                Zhaogeng Li (Baidu Inc.);
+                Donghua Huang (Baidu.com);
+                Bin Liu (Tsinghua University);</i> </p>
+
+
+
+        <h3 id="panel"></h3>
+        <p><strong>Panel: Network Abstractions for Continous Innovation - What do We Need?</strong>
+            <br><a href="./panel.html" target="_blank">Panelists, moderator and panel description</a>
+        </p>
+
+        <h2 id="d2">Thursday, October 12, 2024</h2>
+
+        <h3 id="S3"></h3>
+        <p><b> Hi2LoRa: Exploring Highly Dimensional and Highly Accurate Features to push LoRaWAN Concurrency Limits with Low Implementation Cost </b><br/>
+            <i> Weiwei Chen (Shanghai University);
+                Shuai Wang (Southeast University);
+                Tian He (Southeast University);
+                Xianjin Xia (The Hong Kong Polytechnic University);
+                Shuai Wang (Southeast University);</i> </p>
+
+
+        <p><b> SLoRa: A Systematic Framework for Synergic Interference Resilience In LPWAN </b><br/>
+            <i>Qiling Xu (City University of Hong Kong);
+                Kai Sun (Southeast University);
+                Shuai Wang (Southeast University);
+                PENGPENG CHEN (China University of Mining and Technology);
+                Zhimeng Yin (City University of Hong Kong); </i> </p>
+
+        <p><b> LoSense: Integrated Long-Range Sensing and Communication with LoRa Signals </b><br/>
+            <i> Zhipeng Song (Tsinghua University);
+                Shuai Tong (Tsinghua University);
+                Jiliang Wang (Tsinghua University); </i> </p>
+
+        <h3 id="S4"></h3>
+        <p><b> Network Specification Mining with High Fidelity and Scalability </b><br/>
+            <i> Ning Kang (Xi'an Jiaotong University);
+                Peng Zhang (Xi'an Jiaotong University);
+                Hao Li (Xi'an Jiaotong Universifty);
+                Sisi Wen (Xi'an Jiaotong University);
+                Chaoyang Ji (Huawei Cloud);
+                Yongqiang Yang (Huawei Cloud); </i> </p>
+
+        <p><b> SD-INT: Towards Lightweight Network-Wide Passive INT in the Self-Driving Way </b><br/>
+            <i>Ruihao Wang (Tsinghua University);
+                Yunsenxiao Lin (Tencent Technology Co.Ltd.);
+                Andong Chen (Tsinghua University);
+                Yangyang Wang (Tsinghua University);
+                Mingwei Xu (Tsinghua University);
+                Pingping Chen (Beijing Kuaishou Technology Co., Ltd.);
+                Bowen Liu (Beijing Kuaishou Technology Co., Ltd.);
+                Yongfeng Ni (Beijing Kuaishou Technology Co., Ltd.);
+                Shaowen Zheng (China Mobile Research Institute);
+                Kehan Yao (China Mobile Research Institute);</i> </p>
+
+        <p><b> MIME: Fast and Accurate Flow Information Compression for Multi-Spread Estimation </b><br/>
+            <i> Hanwen Zhang (Soochow University);
+                He Huang (Soochow University);
+                Yu-E Sun (Soochow University);
+                Zhaojie Wang (Soochow University); </i> </p>
+
+        <p><b> PA-Sketch: A Fast and Accurate Sketch for Differentiated Flow Estimation </b><br/>
+            <i> Sitan Li (Central South University);
+                Jiawei Huang (Central South University);
+                Wenlu Zhang (Central South University);
+                Jing Shao (Central South University); </i> </p>
+
+        <h3 id="S5"></h3>
+        <p><b> PA-ATP: Progress-Aware Transmission Protocol for In-Network Aggregation </b><br/>
+            <i> Zhaoyi Li (Central South University);
+                Jiawei Huang (Central South University);
+                Tao Zhang (Changsha University);
+                Shengwen Zhou (Central South University);
+                Qile Wang (Central South University);
+                Yijun Li (Central South University);
+                Jingling Liu (Central South University);
+                Wanchun Jiang (Central South University);
+                Jianxin Wang (Central South University);</i>  </p>
+
+
+        <p><b> In-Forest: Distributed In-Network Classification with Ensemble Models </b><br/>
+            <i>  Jiaye Lin (Tsinghua University);
+                Qing Li (Peng Cheng Laboratory);
+                Guorui Xie (Tsinghua University);
+                Yong Jiang (Tsinghua Shenzhen International Graduate School);
+                Zhenhui Yuan (Northumbria University);
+                Changlin Jiang (Peng Cheng Laboratory);
+                Yuan Yang (Tsinghua University);</i> </p>
+
+        <p><b> Preemptive Switch Memory Usage to Accelerate Training Jobs with Shared In-Network Aggregation </b><br/>
+            <i> Hao Wang (Hong Kong University of Science and Technology);
+                Yuxuan Qin (Hong Kong University of Science and Technology);
+                ChonLam Lao (Harvard University);
+                Yanfang Le (Intel);
+                Wenfei Wu (Peking University);
+                Kai Chen (Hong Kong University of Science and Technology);</i> </p>
+
+
+        <h3 id="poster"></h3>
+        <!--<h4><u>In-Person</u></h4>-->
+        <p>
+            <strong> Poster: Fairness Improvement Method Using ECNs with Different Congestion Control Algorithms within QUIC</strong><br>
+            <i>Nobuhiro Uchida, Daiki Nobayashi, Dirceu Cavendish, Takeshi Ikenaga (Kyushu Institute of Technology)</i><br>
+
+            <strong> Poster: Verifiable Blockchain-based Decentralized Learning</strong><br>
+            <i>Xiaoxue Zhang, Yifan Hua, Chen Qian (University of California Santa Cruz)</i><br>
+
+            <strong> Poster: Maximal Rate Entanglement Swapping Schedules for Routing in the Quantum Internet</strong><br>
+            <i>Seweryn Dynerowicz</i><br>
+
+            <strong> Poster: Measuring Adoption of SPF, DMARC, and CAA DNS Records with Nonfederal Governments in the United States</strong><br>
+            <i>Alexander Gebhard, Debbie Perouli (Marquette University)</i><br>
+
+            <strong> Poster: mmBox: mmWave Bounding Box for Vehicle and Pedestrian Detection under Outdoor Environment</strong><br>
+            <i>Zhuangzhuang Gu, Hem Regmi, Sanjib Sur (University of South Carolina)</i><br>
+
+            <strong> Poster: Measurement on Lightning Network Performance</strong><br>
+            <i>Xiaoxue Zhang, Sammy Tesfai (University of California Santa Cruz); Fei Fang (East China Normal University); Chen Qian (University of California Santa Cruz)</i><br>
+
+            <strong> Poster: Traffic Scheduler for Cloud VR Applications in Edge Networks</strong><br>
+            <i>Wanghong Yang (University of Goettingen); Wenji Du, Baosen Zhao, Yongmao Ren, Xu Zhou (Chinese Academy of Sciences); Xiaoming Fu (University of Goettingen)</i><br>
+
+            <strong> Poster: NegotiaToR: A Simple On-demand Reconﬁgurable Data Center Network</strong><br>
+            <i>Cong Liang, Xiangli Song, Jing Cheng (Tsinghua University); Mowei Wang, Yashe Liu, Zhenhua Liu, Liang Zhang (Huawei Technologies); Yong Cui (Tsinghua University)</i><br>
+
+            <strong> Poster: Predictive Collision Avoidance considering Trade-off between Distance and Signal Power</strong><br>
+            <i>Jiseoup Lim (Hanyang University); Haegeon Jeong (Education and Research Center for Artificial Intelligence in Healthcare); Kyungtae Kang (Hanyang Univeristy)</i><br>
+
+            <strong> Poster: Access Control Method with Privacy Preservation in NDN</strong><br>
+            <i>Yuma Fukagawa, Noriaki Kamiyama (Ritsumeikan University)</i><br>
+
+            <strong> Poster: Multipath Transport for Video Streams in Heterogeneous Wireless Environments</strong><br>
+            <i>Ana Aguiar (University of Porto); Afonso Azevedo (Vodafone Portugal); Bernardo Carrilho (University of Porto)</i><br>
+
+            <strong> Poster: agSense: Cooperative Urban Sensing Using UAVs and Ground Social Vehicles</strong><br>
+            <i>Yan Pan (National University of Defense Technology); Na Deng (POWERCHINA Zhongnan Engineering Corporation Limited)</i><br>
+
+            <strong> Demo: ABE to the Rescue: Efficient Encrypted Communications for Disaster Management</strong><br>
+            <i>Hongmiao Yu (University of California, Riverside); Jiachen Chen (WINLAB, Rutgers University); K. K. Ramakrishnan (University of California, Riverside)</i><br>
+
+            <strong> Demo: Visualizing the Internet Topology Interactively with MaraMap</strong><br>
+            <i>Ella Lu (Chapel Hill High School); Dominic Ritchey, Shihan Lin, Xiao Zhang, Xiaowei Yang (Duke University)</i><br>
+
+            <strong> Demo: General Purpose Overlay Network Using Sidecar Model in Presence of Intermittent Links with Monitoring</strong><br>
+            <i>John DeHart, Jyoti Parwatikar, Behrooz Farkiani, Patrick Crowley (Washington University in St. Louis)</i><br>
+
+            <strong> Demo: A Digital Twin of the 5G Radio Access Network for Anomaly Detection Functionality</strong><br>
+            <i>Peizheng Li, Adnan Aijaz, Tim Farnham, Sajida Gufran, Sita Chintalapati (Toshiba Europe Ltd.)</i><br>
+
+            <strong> Demo: Integration of Marketplace for the 5G Open RAN Ecosystem</strong><br>
+            <i>Tim Farnham, Sajida Gufran, Peizheng Li, Adnan Aijaz (Toshiba Europe Ltd.)</i><br>
+
+            <strong> Demo: BuildTwin: Towards Real-time High-fidelity Digital Twin for Smart Building Management</strong><br>
+            <i>Zhizhao Liang, Yichao Jin, Jagdeep Singh, Aftab Khan (Toshiba Europe Ltd.)</i><br>
+
+        </p>
+
+        <h3 id="S6"></h3>
+        <p><b> Beyond the Ring: Quantized Heterogeneous Consistent Hashing </b><br/>
+            <i>Yoav Levi (Technion);
+                Isaac Keslassy (Technion); </i> </p>
+
+        <p><b> Bucket-level Elastic Cuckoo Filter based on Consistent Hashing with Higher Memory Efficiency </b><br/>
+            <i> Guannan Pan (Southeast University of China);
+                Yongchao Zhang (Southeast University of China);
+                Qingjun Xiao (Southeast University of China); </i></p>
+
+
+        <p><b> Correctness of EIGRP Generalized for Arbitrary Routing Metrics and Policies </b><br/>
+            <i> Jo&atildeo Sobrinho (Instituto Superior T&eacutecnico);
+                Ricardo Santos (Instituto Superior T&eacutecnico);</i> </p>
+
+        <h2 id="d2">Friday, October 13, 2024</h2>
+        <h3 id="S7"></h3>
+        <p><b> Roracle: Enabling Lookahead Routing for Scalable Traffic Engineering with Supervised Learning </b><br/>
+            <i> Minghao Ye (New York University);
+                Junjie Zhang (Fortinet, Inc.);
+                Zehua Guo (Beijing Institute of Technology);
+                H. Jonathan Chao (New York University );</i></p>
+
+
+        <p><b> Solving Distributed ACL Policies under Complex Constraints with Graph Neural Networks </b><br/>
+            <i> XingJian Liao (Beijing University of Posts and Telecommunications);
+                Haifeng Sun (Beijing University of Posts and Telecommunications);
+                Jingyu Wang (Beijing University of Posts and Telecommunications);
+                Qi Qi (Beijing University of Posts and Telecommunications);
+                Zirui Zhuang (Beijing University of Posts and Telecommunications);
+                Jianxin Liao (Beijing University of Posts and Telecommunications);
+                Guang Yang (Alibaba Group); </i> </p>
+
+
+        <p><b> Dryad: Deploying Adaptive Trees on Programmable Switches for Networking Classification </b><br/>
+            <i> Guorui Xie (Tsinghua University);
+                Qing Li (Peng Cheng Laboratory);
+                Jiaye Lin (Tsinghua University);
+                Gianni Antichi (Politecnico di Milano and Queen Mary University of London);
+                Dan Zhao (Peng Cheng Laboratory);
+                Zhenhui Yuan (Northumbria University);
+                Ruoyu Li (Tsinghua University);
+                Yong Jiang (Tsinghua Shenzhen International Graduate School); </i> </p>
+
+
+        <h3 id="S8"></h3>
+        <p><b> Efficient Attack Detection with Multi-Latency Neural Models on Heterogeneous Network Devices </b><br/>
+            <i>Guorui Xie (Tsinghua University);
+                Qing Li (Peng Cheng Laboratory);
+                Haolin Yan (Xidian University);
+                Dan Zhao (Peng Cheng Laboratory);
+                Gianni Antichi (Politecnico di Milano and Queen Mary University of London);
+                Yong Jiang (Tsinghua Shenzhen International Graduate School);
+                Haolin Yan (Tsinghua University); </i> </p>
+
+        <p><b> A Cross-chain Payment Channel Network </b><br/>
+            <i>Xiaoxue Zhang (University of California, Santa Cruz);
+                Chen Qian (University of California Santa Cruz );</i></p>
+
+
+        <p><b> Formal Analysis of IBC Protocol </b><br/>
+            <i>Qiuyang Wei (University of the Chinese Academy of Sciences);
+                Xufeng Zhao (University of the Chinese Academy of Sciences);
+                Xue-yang Zhu (University of the Chinese Academy of Sciences);
+                Wenhui Zhang (University of the Chinese Academy of Sciences);
+                qiuyang wei (University of Chinese Academy of Sciences);</i> </p>
+
+        <p><b> SAFE: Secure and Flexible Encryption for Dynamic Team Communications in Disaster Management </b><br/>
+            <!--<p><b> Flexible and Efficient Encrypted Communications for Dynamic Teams in Disaster Management </b><br/>-->
+            <i> Hongmiao Yu (University of California, Riverside);
+                Jiachen Chen (Rutgers University);
+                K. K. Ramakrishnan (University of California, Riverside);</i>  </p>
+
+
+
+
+        <h3 id="S9"></h3>
+        <p><b> DFH: Improving Reliability of LR-FHSS via Dynamic Frequency Hopping </b><br/>
+            <i> Fanhao Zhang (Beijing University of Posts and Telecommunications);
+                Fu Yu (Beijing University of Posts and Telecommunications);
+                Xiaolong Zheng (Beijing University of Posts and Telecommunications);
+                Liang Liu (Beijing University of Posts and Telecommunications);
+                Huadong Ma (Beijing University of Posts and Telecommunications);</i> </p>
+
+        <p><b> SyncCast: Real-Time Self-Adaptive and Fault-Tolerant All-to-All Data-Sharing in IoT </b><br/>
+            <i> Jagnyashini Debadarshini (IIT Bhubaneswar);
+                Sudipta Saha (IIT Bhubaneswar); </i> </p>
+
+
+        <p><b> A System Architecture for Battery-free IoT networks </b><br/>
+            <i> Dayrene Frometa Fonseca (IMDEA Networks);
+                Borja Genoves Guzman (University of Virginia);
+                Domenico Giustiniano (IMDEA Networks);
+                Joerg Widmer (IMDEA Networks); </i> </p>
+
+
+
+        <h3 id="S10"></h3>
+        <p><b> FlowBot: A Learning-Based Co-bottleneck Flow Detector for Video Servers </b><br/>
+            <i>Jinhui Song (University of Illinois at Urbana-Champaign);
+                Bo-Rong Chen (University of Illinois at Urbana-Champaign);
+                Bowen Song (University of California, Davis);
+                Anyu Ying (Carnegie Mellon University);
+                Yih-Chun Hu (University of Illinois at Urbana-Champaign); </i></p>
+
+        <p><b> ART: Adaptive Retransmission for Wide-Area Loss Recovery in the Wild </b><br/>
+            <i> Tong Li (Renmin University of China);
+                Wei Liu (Renmin University of China);
+                Xinyu Ma (Renmin University of China);
+                Shuaipeng Zhu (Renmin University of China);
+                Jingkun Cao (Renmin University of China);
+                Senzhen Liu (ByteDance);
+                Taotao Zhang (ByteDance);
+                Yinfeng Zhu (ByteDance);
+                Bo Wu (Tsinghua University);
+                Ke Xu (Tsinghua University);</i> </p>
+
+
+        <p><b> CWnd-Loan - A New Approach to Improve Live Video Performance in RTT-Spiking Networks </b><br/>
+            <i> Lingfeng Guo (Tencent);
+                Yan Liu (Tencent);
+                Jack Lee Yiu-Bun (The Chinese University of Hong Kong);
+                Fuyu Wang (Tencent);
+                Changkui Ouyang (Tencent);
+                Cheng Luo (Tencent);
+                Wenzheng Yang (Tencent);
+                Shengtong Zhu (The Chinese University of Hong Kong);
+                Kui Tan (Tencent);
+                Yan Liu (Bytedance); </i> </p>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div style="padding-top: 10px;padding-bottom:5px" class="block app-block-footer">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12"><h6 class="text-uppercase">Sponsors</h6></div>
+        </div>
+    </div>
+</div>
+    <div style="padding-top:10px;padding-bottom:0" class="block app-block-footer">
+        <div class="container text-center">
+            <div class="row" style="...">
+                <div class="col-sm-4 text-center gold">
+                    <p>Gold</p>
+                    <a href="https://www.futurewei.com" target="_blank">
+                        <img src="./assets/img/futurewei-logo.png" alt="Futurewei Technologies" style="max-width: 300px;padding: 4px"></a>
+                </div>
+                <br>
+                <div class="col-sm-4 text-center">
+                    
+                    <a href="https://en.ru.is" target="_blank">
+                        <img src="./assets/img/Reykjavik_University_logo.svg" alt="Reyjavik University" style="max-width: 300px;padding: 4px"></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a href="https://tc.computer.org/tcdp/" target="_blank">
+                        <img src="./assets/img/TCDP2.png" alt="TCDP" style="max-height: 85px;padding:5px"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<div style="padding-top: 0" class="block app-block-footer">
+    <div class="container text-center">
+        <div class="row" style="padding-top: 30px;">
+            <div class="col-sm-push-3 col-sm-4 text-center">
+                <img src="./assets/img/IEEE-CS_LogoTM-orange.png" style="max-width: 250px;"
+                     alt="IEEE Computer Society"/>
+            </div>
+            <div class="col-sm-push-3 col-sm-2 text-center">
+                <img src="assets/img/icnp_logo.png" alt="ICNP" style="max-height: 85px;padding:5px"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h6 class="text-uppercase">&copy; 2024 ICNP Organizing Committee</h6>
+                <p style="font-size: 14px; text-align: center">Last updated:
+                    <span id="lastUpdate"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of the stage  -->
+<script>
+    document.getElementById("lastUpdate").innerHTML = new Date(document.lastModified).toLocaleDateString();
+</script>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/toolkit.js"></script>
+<script src="./assets/js/application.js"></script>
+<script src="./assets/js/smoothscroll.js"></script>
+
+    <!-- end of the stage  -->
+    <!-- end of the stage  -->
+    <script>
+        document.getElementById("lastUpdate").innerHTML = new Date(document.lastModified).toLocaleDateString();
+    </script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery.svg.min.js"></script>
+    <script src="./assets/js/toolkit.js"></script>
+    <script src="./assets/js/application.js"></script>
+    <script src="./assets/js/smoothscroll.js"></script>
+
+
+    <!-- end of the stage  -->
+    <!-- end of the stage  -->
+    <script>
+        document.getElementById("lastUpdate").innerHTML = new Date(document.lastModified).toLocaleDateString();
+    </script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery.svg.min.js"></script>
+    <script src="./assets/js/toolkit.js"></script>
+    <script src="./assets/js/application.js"></script>
+    <script src="./assets/js/smoothscroll.js"></script>
+    <script>
+        const conferenceDays = [
+            {
+                'date': '2024-10-10',
+                'text': 'Tuesday (Oct. 10)',
+                'href': 'd1',
+                'events': [
+                    {
+                        'start': '08:00',
+                        'end': '9:00',
+                        'title': 'Registration',
+                        'type': 'workshop',
+                        'href': '',
+                        'lines': ['Registration','08:00 - 17:00'],
+                        'agenda': true,
+                        'timeDescription': 'Registration: 8:00-17:00'
+                    },
+                    {
+                        'start': '9:00',
+                        'end': '10:00',
+                        'title': 'Workshop',
+                        'type': 'workshop',
+                        'href': 'workshops',
+                        'lines': ['CEC & 6B-SQSC Workshops','Opening Session &','1st Keynote'],
+                        'agenda': true,
+                        'timeDescription': 'Workshops: CEC, 6G-SQSC'
+                    },
+                    {
+                        'start': '10:10',
+                        'end': '10:30',
+                        'title': 'Coffee Break',
+                        'type': 'conf',
+                        'href': '',
+                        'agenda': true,
+                        'timeDescription': 'AM Coffee Break'
+                    },
+                    {
+                        'start': '10:30',
+                        'end': '12:00',
+                        'title': 'Workshop',
+                        'type': 'workshop',
+                        'href': '',
+                        'lines': ['Workshops','CEC', '6G-SQSC','10:45-12:30'],
+                        'agenda': true,
+                        'timeDescription': 'Workshops: CEC, 6G-SQSC'
+                    },
+                    {
+                        'start': '12:30',
+                        'end': '13:30',
+                        'title': 'Lunch',
+                        'type': 'conf',
+                        'href': '',
+                        'agenda': true,
+                        'timeDescription': 'Lunch'
+                    },
+                    {
+                        'start': '13:30',
+                        'end': '14:15',
+                        'title': 'Workshop',
+                        'type': 'workshop',
+                        'href': '',
+                        'lines': ['Workshops','2nd Keynote'],
+                        'agenda': true,
+                        'timeDescription': 'Workshops: CEC, 6G-SQSC'
+                    },
+                    {
+                        'start': '14:15',
+                        'end': '14:45',
+                        'title': 'Coffee Break',
+                        'type': 'conf',
+                        'href': '',
+                        'agenda': true,
+                        'timeDescription': 'PM Coffee Break'
+                    },
+                    {
+                        'start': '15:45',
+                        'end': '17:00',
+                        'title': 'Workshop',
+                        'type': 'workshop',
+                        'href': '',
+                        'lines': ['Workshops','CEC', '6G-SQSC','15:45-17:00'],
+                        'agenda': true,
+                        'timeDescription': 'Workshops: CEC, 6G-SQSC'
+                    },
+
+                ]
+            },
+            {
+                'date': '2024-10-11',
+                'text': 'Wednesday (Oct. 11)',
+                'href': 'd2',
+                'events': [
+                    {
+                        'start': '8:00',
+                        'end': '9:00',
+                        'title': 'Registration',
+                        'type': 'workshop',
+                        'href': '',
+                        'lines': ['Registration','08:00 - 17:00'],
+                        'agenda': true,
+                        'timeDescription': 'Registration: 8:00-17:00'
+                    },
+                    {
+                        'start': '9:00',
+                        'end': '10:15',
+                        'title': 'Opening and Keynote',
+                        'type': 'opening',
+                        'href': 'opening',
+                        'agenda': true,
+                        'timeDescription': 'Opening and Keynote'
+                    },
+                    {
+                        'start': '10:15',
+                        'end': '10:45',
+                        'title': 'Coffee Break',
+                        'type': 'conf',
+                        'href': '',
+                        'agenda': true,
+                        'timeDescription': 'AM Coffee Break'
+                    },
+                    {
+                        'start': '10:45',
+                        'end': '12:30',
+                        'title': '1: Congestion Control',
+                        'type': 'session',
+                        'href': 'S1',
+                        'lines': ['1: Congestion','Control'],
+                        'agenda': true,
+                        'timeDescription': 'S1: Congestion Control'
+                    },
+                    {
+                        'start': '12:30',
+                        'end': '13:30',
+                        'title': 'Lunch',
+                        'type': 'conf',
+                        'href': '',
+                        'agenda': true,
+                        'timeDescription': 'Lunch'
+                    },
+                    {
+                        'start': '13:30',
+                        'end': '15:15',
+                        'title': '2: SmartNIC',
+                        'type': 'session',
+                        'href': 'S2',
+                        'lines': ['2: SmartNIC'],
+                        'agenda': true,
+                        'timeDescription': 'S2: SmartNIC'
+                    },
+                    {
+                        'start': '15:15',
+                        'end': '15:45',
+                        'title': 'Coffee Break',
+                        'type': 'conf',
+                        'href': '',
+                        'agenda': true,
+                        'timeDescription': 'PM Coffee Break'
+                    },
+                    {
+                        'start': '15:45',
+                        'end': '17:15',
+                        'title': 'Panel',
+                        'type': 'event',
+                        'href': 'panel',
+                        'lines': ['Panel'],
+                        'agenda': true,
+                        'timeDescription': 'Panel'
+                    },
+                    {
+                        'start': '18:00',
+                        'end': '19:00',
+                        'title': 'Reception',
+                        'type': 'conf',
+                        'href': 'reception',
+                        'agenda': true,
+                        'timeDescription': 'Reception'
+                    },
+                ]
+            },
+            {
+                'date': '2024-10-12',
+                'text': 'Thursday (Oct. 12)',
+                'href': 'd3',
+                'events': [
+                    {
+                        'start': '08:00',
+                        'end': '9:00',
+                        'title': 'Registration',
+                        'type': 'workshop',
+                        'href': '',
+                        'lines': ['Registration','08:00 - 17:00'],
+                        'agenda': true,
+                        'timeDescription': 'Registration: 08:00-17:00'
+                    },
+                    {
+                        'start': '9:00',
+                        'end': '10:15',
+                        'title': '3: LoRA',
+                        'type': 'session',
+                        'href': 'S3',
+                        'lines':['3: LoRA'],
+                        'agenda': true,
+                        'timeDescription': 'S3:LoRA'
+                    },
+                    {
+                        'start': '10:15',
+                        'end': '10:45',
+                        'title': 'Coffee Break',
+                        'type': 'conf',
+                        'href': '',
+                        'agenda': true,
+                        'timeDescription': 'AM Coffee Break'
+                    },
+                    {
+                        'start': '10:45',
+                        'end': '12:30',
+                        'title': '4: Measurement',
+                        'type': 'session',
+                        'href': 'S4',
+                        'lines': ['4: Measurement'],
+                        'agenda': true,
+                        'timeDescription': 'S4: Measurement'
+                    },
+                    {
+                        'start': '12:30',
+                        'end': '13:30',
+                        'title': 'Lunch',
+                        'type': 'conf',
+                        'href': '',
+                        'agenda': true,
+                        'timeDescription': 'Lunch'
+                    },
+                    {
+                        'start': '13:30',
+                        'end': '14:45',
+                        'title': '5: In-Network Computing',
+                        'type': 'session',
+                        'href': 'S5',
+                        'lines': ['5: In-Network',' Computing'],
+                        'agenda': true,
+                        'timeDescription': 'S5: In-Network Computing'
+                    },
+                    {
+                        'start': '14:45',
+                        'end': '15:45',
+                        'title': 'Poster & Demo Coffee Break',
+                        'type': 'event',
+                        'href': 'poster',
+                        'lines': ['Posters and Demo',' Coffee Break'],
+                        'agenda': true,
+                        'timeDescription': 'PM Coffee Break'
+                    },
+                    {
+                        'start': '15:45',
+                        'end': '17:00',
+                        'title': '6: Algorithms & Analysis',
+                        'type': 'session',
+                        'href': 'S6',
+                        'lines': ['6: Algorithms',' & Analysis'],
+                        'agenda': true,
+                        'timeDescription': 'S6: Algorithms & Analysis'
+                    },
+                    {
+                        'start': '18:00',
+                        'end': '19:00',
+                        'title': 'Banquet (18:00-21:00)',
+                        'type': 'conf',
+                        'href': 'banquet',
+                        'agenda': true,
+                        'timeDescription': 'Banquet'
+                    },
+                ]
+            },
+            {
+                'date': '2024-10-13',
+                'text': 'Friday (Oct. 13)',
+                'href': 'd4',
+                'events': [
+                    {
+                        'start': '8:00',
+                        'end': '9:00',
+                        'title': 'Registration',
+                        'type': 'workshop',
+                        'href': '',
+                        'lines': ['Registration','08:00 - 15:15'],
+                        'agenda': true,
+                        'timeDescription': 'Registration: 8:00-15:15'
+                    },
+                    {
+                        'start': '9:00',
+                        'end': '10:15',
+                        'title': '7: Learning & Networking',
+                        'type': 'session',
+                        'href': 'S7',
+                        'lines':['7: Learning',' & Networking'],
+                        'agenda': true,
+                        'timeDescription': 'S7: Learning & Networking'
+                    },
+                    {
+                        'start': '10:15',
+                        'end': '10:45',
+                        'title': 'Coffee Break',
+                        'type': 'conf',
+                        'href': '',
+                        'agenda': true,
+                        'timeDescription': 'AM Coffee Break'
+                    },
+                    {
+                        'start': '10:45',
+                        'end': '12:30',
+                        'title': '8: Security & Blockchain',
+                        'type': 'session',
+                        'href': 'S8',
+                        'lines': ['8: Security',' & Blockchain'],
+                        'agenda': true,
+                        'timeDescription': 'S8: Security & Blockchain'
+                    },
+                    {
+                        'start': '12:30',
+                        'end': '13:30',
+                        'title': 'Lunch',
+                        'type': 'conf',
+                        'href': '',
+                        'agenda': true,
+                        'timeDescription': 'Lunch'
+                    },
+                    {
+                        'start': '13:30',
+                        'end': '14:45',
+                        'title': '9: Wireless',
+                        'type': 'session',
+                        'href': 'S9',
+                        'lines': ['9: Wireless'],
+                        'agenda': true,
+                        'timeDescription': 'S9: Wireless'
+                    },
+                    {
+                        'start': '14:45',
+                        'end': '15:15',
+                        'title': 'Coffee Break',
+                        'type': 'conf',
+                        'href': '',
+                        'agenda': true,
+                        'timeDescription': 'PM Coffee Break'
+                    },
+                    {
+                        'start': '15:15',
+                        'end': '16:30',
+                        'title': '10: Multimedia Networking',
+                        'type': 'session',
+                        'href': 'S10',
+                        'lines': ['10: Multimedia',' Networking'],
+                        'agenda': true,
+                        'timeDescription': 'S10: Multimedia Networking'
+                    },
+                ]
+            },
+        ]
+        const defaultOffset = 0; // UTC-4 EDT
+        const dataOffset = 0; // UTC-5 CDT
+        const startTime = '08:00', endTime = '19:00';
+        const pageName = window.location.pathname.split("/").pop();
+        const sessionAbbrevation = 'S ', sessionName = 'Session ';
+        const defaultLineHeight = 22;
+        const topMargin = 10, headerMargin = defaultLineHeight * 2, leftMargin = 10, tableMargin = 5;
+
+        const startDateDefaultOffset = new Date(new Date('2021/11/1 ' + startTime).getTime() + (dataOffset - defaultOffset) * 3600 * 1000);
+        const endDateDefaultOffset = new Date(new Date('2021/11/1 ' + endTime).getTime() + (dataOffset - defaultOffset) * 3600 * 1000);
+        const halfHours = (endDateDefaultOffset - startDateDefaultOffset) / 3600 / 1000 * 4;
+        const drawBottom = topMargin + (halfHours + 1) * defaultLineHeight * 2 + topMargin;
+        const backLineElements = [];
+        const timeElements = [];
+        let topTimeElement;
+
+        let localTimezoneShowing = false;
+        let agendaSvg;
+        $(function () {
+            const localOffset = new Date().getTimezoneOffset() / 60;
+            if (localOffset === defaultOffset) {
+                $('#containerLocalTime').hide();
+                $('#checkLocalTime').attr("disabled", true);
+            } else {
+                $('#labelLocalTime').text(' Also show times in local timezone (' + Intl.DateTimeFormat().resolvedOptions().timeZone + ')');
+                $('#checkLocalTime').click(function () {
+                    checkLocalTimezoneChecked($(this));
+                });
+            }
+        });
+
+        function formatDate(date) {
+            let hours = date.getHours();
+            const ap = hours < 12 ? 'AM' : 'PM';
+            if (hours === 0) hours = 12;
+            if (hours > 12) hours -= 12;
+            if (hours < 10) hours = '0' + hours;
+            let minutes = date.getMinutes() + '';
+            if (minutes < 10) minutes = '0' + minutes;
+            return hours + ':' + minutes + ap;
+        }
+
+        function formatLocalDate(date, localDateOffset) {
+            let prefix = '';
+            let hours = date.getHours();
+            hours -= localDateOffset - defaultOffset;
+            if (hours < 0) {
+                prefix = '-1  ';
+                hours += 24;
+            } else if (hours > 24) {
+                prefix = '+1 ';
+                hours -= 24;
+            }
+            const ap = hours < 12 ? 'AM' : 'PM';
+            if (hours === 0) hours = 12;
+            if (hours > 12) hours -= 12;
+            if (hours < 10) hours = '0' + hours;
+            let minutes = date.getMinutes() + '';
+            if (minutes < 10) minutes = '0' + minutes;
+            return prefix + hours + ':' + minutes + ap;
+        }
+
+        function getY(date) {
+            const hourDiff = (date - startDateDefaultOffset) / 1000.0 / 3600.0 *2;
+            return topMargin + headerMargin + hourDiff * defaultLineHeight * 4; //8= 15min / line, 4=30min/line
+        }
+
+        function getRectSettings(type) {
+            switch (type) {
+                case 'opening':
+                    return {stroke: 'black', strokeWidth: '1px', fill: 'rgba(169, 208, 142, 0.7)'};
+                case 'workshop':
+                    return {stroke: 'black', strokeWidth: '0px', fill: 'rgba(255, 255, 255, .1)'};
+                case 'session':
+                    return {stroke: 'black', strokeWidth: '1px', fill: 'rgba(255, 252, 204, 0.7)'};
+                case 'conf':
+                    return {stroke: 'black', strokeWidth: '1px', fill: 'rgba(155, 194, 230, 0.7)'};
+                case 'event':
+                    return {stroke: 'black', strokeWidth: '1px', fill: 'rgba(198, 224, 180, 0.7)'};
+                case 'registration':
+                    return {stroke: 'black', strokeWidth: '0px', fill: 'rgba(198, 224, 180, 0.7)'};
+            }
+        }
+
+        function initTimes() {
+            $('#svgAgenda').svg({
+                onLoad: function (svg) {
+                    agendaSvg = svg;
+                    const localDateOffset = new Date().getTimezoneOffset() / 60;
+                    const localTimeName = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+                    svg.title('Agenda');
+
+                    // back lines
+                    const backLines = svg.group('backLines', {stroke: 'gray', strokeWidth: '1px'});
+                    for (let i = 1; i < halfHours * 2; i++) { //tbd changed 2 to 4
+                        const y = topMargin + headerMargin + i * defaultLineHeight;
+                        backLineElements.push(svg.line(backLines, leftMargin, y, leftMargin, y));
+                    }
+
+                    // times on the left
+                    const time = svg.group('time');
+                    let currDate = new Date(startDateDefaultOffset.getTime()), nextDate;
+                    { // first cell
+                        const group = svg.group(time);
+                        // const rect = svg.rect(group, leftMargin, topMargin, 0, headerMargin,
+                        //     {fill: 'rgba(255, 255, 255, .1)', stroke: 'black', strokeWidth: '1px'});
+                        const text = svg.text(group, leftMargin, topMargin + headerMargin / 2 + 6,
+                            'UTC', {
+                                fontFamily: 'Roboto',
+                                textAnchor: 'middle',
+                                style: 'font-size: 16px',
+                                fontWeight: 'bold'
+                            });
+                        const textL = svg.text(group, leftMargin, topMargin + headerMargin / 2 + defaultLineHeight / 2 + 6,
+                            '(' + localTimeName + ')', {
+                                fontFamily: 'Roboto',
+                                textAnchor: 'middle',
+                                style: 'font-size: 16px',
+                                fontWeight: 'bold',
+                                fill: 'red',
+                                visibility: 'hidden'
+                            });
+                        topTimeElement = {
+                            textD: text,
+                            textL: textL
+                        }
+                    }
+                    for (let i = 0; i < halfHours; i++) {
+                        nextDate = new Date(currDate.getTime() + 15 * 60 * 1000); //15=15min intervals,30=30 min intervals in program
+                        const group = svg.group(time);
+                        const rect = svg.rect(group, leftMargin, topMargin + headerMargin + i * defaultLineHeight * 2, 0, 2 * defaultLineHeight,
+                            {fill: 'rgba(224, 224, 224, .7)', stroke: 'black', strokeWidth: '1px'});
+                        const text = svg.text(group, leftMargin, topMargin + headerMargin + i * defaultLineHeight * 2 + defaultLineHeight + 6,
+                            formatDate(currDate) + ' \u2013 ' + formatDate(nextDate), {
+                                fontFamily: 'Roboto',
+                                textAnchor: 'middle',
+                                style: 'font-size: 16px',
+                                fontWeight: 'bold'
+                            });
+                        const textL = svg.text(group, leftMargin, topMargin + headerMargin + i * defaultLineHeight * 2 + defaultLineHeight * 3 / 2 + 6,
+                            formatLocalDate(currDate, localDateOffset) + ' \u2013 ' + formatLocalDate(nextDate, localDateOffset), {
+                                fontFamily: 'Roboto',
+                                textAnchor: 'middle',
+                                style: 'font-size: 16px',
+                                fontWeight: 'bold',
+                                fill: 'red',
+                                visibility: 'hidden'
+                            });
+                        timeElements.push({
+                            group: group,
+                            currDate: currDate,
+                            nextDate: nextDate,
+                            rect: rect,
+                            textD: text,
+                            textL: textL
+                        });
+                        currDate = nextDate;
+                    }
+
+                    // days on the top
+                    const days = svg.group('days');
+                    const events = svg.group('events');
+                    conferenceDays.forEach(function (day) {
+                        const link = svg.other(days, 'a', {href: pageName + '#' + day.href});
+                        svg.title(link, day.text);
+                        day.rect = svg.rect(link, 0, topMargin, 0, headerMargin, {
+                            stroke: 'black',
+                            strokeWidth: '2px',
+                            fill: 'rgba(255, 255, 255, 1)'
+                        });
+                        day.textDL = svg.text(link, 0, topMargin + headerMargin / 2 + 6, day.text, {
+                            fontFamily: 'Roboto',
+                            style: 'font-size: 18px',
+                            textAnchor: 'middle',
+                            fontWeight: 'bold'
+                        });
+
+                        day.events.forEach(function (event) {
+                            if (!event.agenda) return;
+
+                            const eventStartDateDefaultOffset = new Date(new Date('2021/11/1 ' + event.start).getTime() + (dataOffset - defaultOffset) * 3600 * 1000);
+                            const eventEndDateDefaultOffset = new Date(new Date('2021/11/1 ' + event.end).getTime() + (dataOffset - defaultOffset) * 3600 * 1000);
+
+                            const timeString = formatDate(eventStartDateDefaultOffset) + ' \u2013 ' + formatDate(eventEndDateDefaultOffset);
+                            const localTimeString = formatLocalDate(eventStartDateDefaultOffset, localDateOffset) + ' \u2013 ' + formatLocalDate(eventEndDateDefaultOffset, localDateOffset);
+
+                            if (event.hasOwnProperty('href')) {
+                                event.group = svg.other(events, 'a', {href: pageName + '#' + event.href});
+
+                                if (event.type !== 'workshop') {
+                                    const after = $('<p></p>');
+                                    event.spanTimeL = $('<span></span>')
+                                        .addClass('localTime')
+                                        .text('(' + localTimeName + ': ' + localTimeString + ') ')
+                                        .hide();
+                                    after.append(event.spanTimeL);
+                                    if (event.hasOwnProperty('chair')) {
+                                        after.append(
+                                            $('<span></span>').text('Session chair: ').append(
+                                                $('<i></i>').text(event.chair)
+                                            ).css('margin-right', '1ex')
+                                        )
+                                    }
+                                    if (event.hasOwnProperty('slack')) {
+                                        after.append(
+                                            $('<a></a>').attr({href: event.slack, target: '_black'}).text('Slack')
+                                        );
+                                    }
+                                    $('#' + event.href)
+                                        .append(
+                                            // <span class="text-ribbon text-ribbon-info"><span></span></span>
+                                            $('<span></span>').addClass('text-ribbon').addClass('text-ribbon-info').append(
+                                                $('<span></span>').text(timeString)
+                                            ))
+                                        .append(
+                                            $('<span></span>').css('padding-left', '25px')
+                                                .text((event.type === 'session' ? sessionName : '') + event.title))
+                                        .after(after);
+                                } else {
+                                    $('#' + event.href)
+                                        .append(
+                                            $('<span></span>')
+                                                .text((event.type === 'session' ? sessionName : '') + event.title))
+                                        .after(
+                                            $('<p></p>')
+                                                .text(event.timeDescription))
+                                }
+                            } else {
+                                event.group = svg.group(events);
+                            }
+                            svg.title(event.group, (event.type === 'session' ? sessionName : '') + event.title);
+                            event.top = getY(eventStartDateDefaultOffset);
+                            event.bottom = getY(eventEndDateDefaultOffset);
+                            event.rect = svg.rect(event.group, 0, event.top, 0, event.bottom - event.top, getRectSettings(event.type));
+                            let lines = 1, top;
+                            if (event.type === 'conf') {
+                                event.text1 = svg.text(event.group, 0, (event.top + event.bottom) / 2 + 6,
+                                    event.title, {
+                                        fontFamily: 'Roboto',
+                                        style: 'font-size: 16px',
+                                        textAnchor: 'middle',
+                                        fontWeight: 'bold'
+                                    });
+                            } else {
+                                if (event.hasOwnProperty('lines')) {
+                                    lines += event.lines.length;
+                                    if (event.type === 'workshop') {
+                                        top = (event.top + event.bottom) / 2 - defaultLineHeight * (lines - 2) / 2 + 6;
+                                    } else {
+                                        top = (event.top + event.bottom) / 2 - defaultLineHeight * (lines - 1) / 2 + 6;
+                                    }
+                                    event.lineElements = [];
+                                    event.lineElements.push(svg.text(event.group, 0, top,
+                                        (event.type === 'session' ? sessionAbbrevation : '') + event.lines[0], {
+                                            fontFamily: 'Roboto',
+                                            style: 'font-size: 16px',
+                                            textAnchor: 'middle',
+                                            fontWeight: 'bold'
+                                        }));
+                                    top += defaultLineHeight;
+                                    for (let i = 1; i < event.lines.length; i++) {
+                                        event.lineElements.push(svg.text(event.group, 0, top,
+                                            event.lines[i], {
+                                                fontFamily: 'Roboto',
+                                                style: 'font-size: ' + (event.type === 'workshop' ? 14 : 16)  + 'px',
+                                                textAnchor: 'middle',
+                                                fontWeight: event.type === 'workshop' ? 'normal' : 'bold'
+                                            }));
+                                        top += defaultLineHeight;
+                                    }
+                                } else {
+                                    lines++;
+                                    top = (event.top + event.bottom) / 2 - defaultLineHeight * (lines - 1) / 2 + 6;
+                                    event.text1 = svg.text(event.group, 0, top,
+                                        (event.type === 'session' ? sessionAbbrevation : '') + event.title, {
+                                            fontFamily: 'Roboto',
+                                            style: 'font-size: 16px',
+                                            textAnchor: 'middle',
+                                            fontWeight: 'bold'
+                                        });
+                                    top += defaultLineHeight;
+                                }
+                                if (event.type !== 'workshop') {
+                                    event.textTime = svg.text(event.group, 0, top, timeString, {
+                                        fontFamily: 'Roboto',
+                                        style: 'font-size: 14px',
+                                        textAnchor: 'middle',
+                                    });
+                                    event.textTimeL = svg.text(event.group, 0, top + defaultLineHeight / 2, '(' + localTimeString + ')', {
+                                        fontFamily: 'Roboto',
+                                        style: 'font-size: 14px',
+                                        fill: 'red',
+                                        fontWeight: 'bold',
+                                        textAnchor: 'middle',
+                                        visibility: 'hidden'
+                                    });
+                                }
+                            }
+                        })
+                    });
+                    setTimeout(adjustWidths, 50);
+                }
+            });
+        }
+
+        function adjustWidths() {
+            let topTimeWidth = $(topTimeElement.textD)[0].getBBox().width;
+            topTimeWidth = localTimezoneShowing ? Math.max(topTimeWidth, $(topTimeElement.textL)[0].getBBox().width) : topTimeWidth;
+            topTimeWidth += tableMargin * 2;
+            let timeWidth = timeElements.map(function (elem) {
+                const textWidth = $(elem.textD)[0].getBBox().width;
+                return localTimezoneShowing ? Math.max(textWidth, $(elem.textL)[0].getBBox().width) : textWidth;
+            }).reduce(function (prev, curr) {
+                return Math.max(prev, curr);
+            }) + tableMargin * 2;
+            timeWidth = Math.max(timeWidth, topTimeWidth);
+            // console.log(timeWidth);
+            agendaSvg.change(topTimeElement.textD, {x: leftMargin + timeWidth / 2});
+            agendaSvg.change(topTimeElement.textL, {x: leftMargin + timeWidth / 2});
+            timeElements.forEach(function (e) {
+                agendaSvg.change(e.rect, {width: timeWidth});
+                agendaSvg.change(e.textD, {x: leftMargin + timeWidth / 2});
+                agendaSvg.change(e.textL, {x: leftMargin + timeWidth / 2});
+            });
+
+
+            const dayWidths = conferenceDays.map(function (day) {
+                const titleWidth = $(day.textDL)[0].getBBox().width;
+                const contentWidth = day.events.map(function (event) {
+                    if (!event.agenda) return 0;
+
+                    let lineWidth;
+                    if (event.hasOwnProperty('lines')) {
+                        lineWidth = event.lineElements.map(function (element) {
+                            return $(element)[0].getBBox().width;
+                        }).reduce(function (prev, curr) {
+                            return Math.max(prev, curr);
+                        });
+                    } else {
+                        lineWidth = $(event.text1)[0].getBBox().width;
+                    }
+                    let timeWidth;
+                    if (event.hasOwnProperty('textTime')) {
+                        timeWidth = $(event.textTime)[0].getBBox().width;
+                        if (localTimezoneShowing) timeWidth = Math.max(timeWidth, $(event.textTimeL)[0].getBBox().width)
+                    } else {
+                        timeWidth = 0;
+                    }
+                    return Math.max(timeWidth, lineWidth);
+                }).reduce(function (prev, curr) {
+                    return Math.max(prev, curr);
+                });
+                return Math.max(titleWidth, contentWidth) + tableMargin * 2;
+            });
+            let left = leftMargin + timeWidth;
+            for (let i = 0; i < conferenceDays.length; i++) {
+                const day = conferenceDays[i];
+                agendaSvg.change(day.textDL, {x: left + dayWidths[i] / 2});
+                agendaSvg.change(day.rect, {x: left, width: dayWidths[i]});
+
+                day.events.forEach(function (event) {
+                    agendaSvg.change(event.rect, {x: left, width: dayWidths[i]});
+                    if (event.hasOwnProperty('lines')) {
+                        event.lineElements.forEach(function (element) {
+                            agendaSvg.change(element, {x: left + dayWidths[i] / 2});
+                        })
+                    } else {
+                        agendaSvg.change(event.text1, {x: left + dayWidths[i] / 2});
+                    }
+                    agendaSvg.change(event.textTime, {x: left + dayWidths[i] / 2});
+                    agendaSvg.change(event.textTimeL, {x: left + dayWidths[i] / 2});
+                });
+                left += dayWidths[i];
+            }
+            backLineElements.forEach(function (e) {
+                agendaSvg.change(e, {x2: left});
+            });
+
+            agendaSvg.configure({viewBox: '0 0 ' + (left + leftMargin) + ' ' + drawBottom}, true);
+        }
+
+        function checkLocalTimezoneChecked(elem) {
+            if (elem.is(':checked')) showLocalTimezone();
+            else hideLocalTimezone();
+        }
+
+        function showLocalTimezone() {
+            if (localTimezoneShowing === true) return;
+            localTimezoneShowing = true;
+            agendaSvg.change(topTimeElement.textL, {visibility: 'visible'});
+            agendaSvg.change(topTimeElement.textD, {
+                y: topMargin + headerMargin / 2 - defaultLineHeight / 2 + 6,
+                fontWeight: 'normal'
+            });
+
+            timeElements.forEach(function (e, i) {
+                agendaSvg.change(e.textL, {visibility: 'visible'});
+                agendaSvg.change(e.textD, {
+                    y: topMargin + headerMargin + i * defaultLineHeight * 2 + defaultLineHeight / 2 + 6,
+                    fontWeight: 'normal'
+                });
+            });
+            conferenceDays.forEach(function (day) {
+                day.events.forEach(function (event) {
+                    if (event.hasOwnProperty('spanTimeL')) {
+                        event.spanTimeL.show();
+                    }
+                    if (event.type === 'conf' || event.type === 'workshop') return;
+                    if (event.hasOwnProperty('lineElements')) {
+                        event.lineElements.forEach(function (lineElement) {
+                            agendaSvg.change(lineElement, {y: $(lineElement).attr('y') / 1 - defaultLineHeight / 2});
+                        });
+                    } else {
+                        agendaSvg.change(event.text1, {y: $(event.text1).attr('y') / 1 - defaultLineHeight / 2});
+                    }
+                    agendaSvg.change(event.textTime, {y: $(event.textTime).attr('y') / 1 - defaultLineHeight / 2});
+                    agendaSvg.change(event.textTimeL, {visibility: 'visible'});
+                });
+            });
+
+            adjustWidths();
+        }
+
+        function hideLocalTimezone() {
+            if (localTimezoneShowing === false) return;
+            localTimezoneShowing = false;
+            agendaSvg.change(topTimeElement.textL, {visibility: 'hidden'});
+            agendaSvg.change(topTimeElement.textD, {
+                y: topMargin + headerMargin / 2 + 6,
+                fontWeight: 'bold'
+            });
+
+            timeElements.forEach(function (e, i) {
+                agendaSvg.change(e.textL, {visibility: 'hidden'});
+                agendaSvg.change(e.textD, {
+                    y: topMargin + headerMargin + i * defaultLineHeight * 2 + defaultLineHeight + 6,
+                    fontWeight: 'bold'
+                });
+            });
+            conferenceDays.forEach(function (day) {
+                day.events.forEach(function (event) {
+                    if (event.hasOwnProperty('spanTimeL')) {
+                        event.spanTimeL.hide();
+                    }
+                    if (event.type === 'conf' || event.type === 'workshop') return;
+                    if (event.hasOwnProperty('lineElements')) {
+                        event.lineElements.forEach(function (lineElement) {
+                            agendaSvg.change(lineElement, {y: $(lineElement).attr('y') / 1 + defaultLineHeight / 2});
+                        });
+                    } else {
+                        agendaSvg.change(event.text1, {y: $(event.text1).attr('y') / 1 + defaultLineHeight / 2});
+                    }
+                    agendaSvg.change(event.textTime, {y: $(event.textTime).attr('y') / 1 + defaultLineHeight / 2});
+                    agendaSvg.change(event.textTimeL, {visibility: 'hidden'});
+                });
+            });
+            adjustWidths();
+        }
+
+        initTimes();
+        checkLocalTimezoneChecked($('#checkLocalTime'));
+    </script>
+
+
+</body>
+</html>
+

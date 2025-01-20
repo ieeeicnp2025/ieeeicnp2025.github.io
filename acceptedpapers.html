@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>
+        IEEE ICNP 2024
+    </title>
+    <link rel="icon" href="./assets/img/icnp_logo.png" type="image/png">
+    <link href="./assets/css/google-font.css" rel="stylesheet">
+    <link href="./assets/css/toolkit-minimal.css" rel="stylesheet">
+    <link href="./assets/css/application-minimal.css" rel="stylesheet">
+    <link href="./assets/css/iqua-pub.css" rel="stylesheet">
+    <link href="./assets/css/coming-soon.css" rel="stylesheet">
+    <style>
+        /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+        /* this chunk of css is not part of the toolkit :) */
+        body {
+            width: 1px;
+            min-width: 100%;
+            width: 100%;
+        }
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise(json)
+        });
+    </script>
+</head>
+<body>
+<!-- All other page content -->
+<nav class="navbar navbar-default navbar-static-top navbar-padded app-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="./index.html" style="padding-top: 10px; padding-bottom: 60px">
+            <img src="./assets/img/icnp_logo.svg" height="50" class="d-inline-block icon-align-vertical-middle"
+                 alt="ICNP"/>
+        </a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed p-x-0" style="padding-top: 19px; padding-bottom: 19px"
+                    data-toggle="collapse"
+                    data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown"><a href="./index.html" class="smoothScroll dropdown-toggle" role="button"
+                                        aria-expanded="false">Home</a></li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Calls<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_self" href="./cfp.html">Call for papers</a></li>
+                        <li><a target="_self" href="./cfd.html">Call for posters/demos</a></li>
+                        <li><a target="_self" href="./cfw.html">Call for workshops</a></li>
+                        <li><a target="_self" href="./travelgrant.html">Travel Grants</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Submission<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_self" href="./submission.html">Paper submission</a></li>
+                        <li><a target="_self" href="./camera.html">Camera-ready</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="./program.html" class="smoothScroll dropdown-toggle" role="button"
+                                        aria-expanded="false">Program<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_self" href="./program.html">Conference Program</a></li>
+                        <li><a target="_self" href="./acceptedpapers.html">Accepted Papers</a></li>
+                        <li><a target="_self" href="./keynote.html">Keynote</a></li>
+                        <li><a target="_self" href="./panel.html">Panel</a></li>
+                    </ul>
+
+                </li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Workshops<span class="caret"></span></a>
+                    <!-- Workshops list -->
+                    <ul class="dropdown-menu" role="menu">
+                        <!--<li><a target="_self" href="./workshops.html">Workshops</a></li>-->
+                        <li><a target="_blank" href="https://thu.aitrans2024.online/">ICNT</a> </li>
+                        <li><a target="_blank" href="https://cec24.github.io/">CEC</a> </li>
+                        <li><a target="_blank" href="./assets/markdown/NPSM.html">NPSM</a> </li>
+			<li><a target="_blank" href="https://p4.org/7th-european-p4-workshop-europ424/">EuroP4</a> </li>
+
+                        <!--<li><a target="_blank" href="https://cec23.github.io/">Cloud-Edge Continuum (CEC) Workshop</a>
+                        </li>-->
+                        <!--<li><a target="_blank" href="https://cec23.github.io/">CEC</a>
+                        </li>
+                        <li><a target="_blank" href="https://qualitativesemantic.wordpress.com">6G-SQSC</a>
+                        </li>-->
+                        <!--<li><a target="_blank" href="https://taisen.dei.uc.pt/index.html">TAISEN</a>
+                        </li>-->
+                        <!--
+                        <li><a target="_blank" href="https://spritz.math.unipd.it/events/2021/Cps_sec2021/index.html">CPS-Sec</a>
+                        </li>
+                        <li><a target="_blank" href="http://cosafe.org.uk/icav2021.html">ICAV</a></li>
+                        <li><a target="_blank" href="http://fnlab.net/NetCloud21.html">NetCloud</a></li>
+                        <li><a target="_blank" href="https://karthickj.github.io/netverify2021/">NetVerify</a></li>
+                        <li><a target="_blank" href="https://nipaa21.wordpress.com/">NIPAA</a></li>
+                        -->
+                    </ul>
+                    <!-- -->
+                </li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Attendance<span class="caret"></span></a>
+                    <!--Other pages-->
+                    <ul class="dropdown-menu" role="menu">
+                        <!--<li><a target="_self" href="./reception.html">Reception</a></li>-->
+                        <!--<li><a target="_self" href="./banquet.html">Tour and Banquet</a></li>-->
+                        <li><a target="_self" href="./Venue.html">Conference Venue</a></li>
+                        <li><a target="_self" href="./registration.html">Registration</a></li>
+                        <li><a target="_self" href="./travelgrant.html">Travel Grants</a></li>
+                        <li><a target="_self" href="./policies.html">Policies</a></li>
+                        <li><a target="_self" href="./accommodation.html">Accommodation</a></li>
+                    </ul>
+
+                </li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Committee<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_self" href="./tpc.html">Technical program committee</a></li>
+                        <li><a target="_self" href="./committee.html">Organizing committee</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="./sponsors.html" class="smoothScroll dropdown-toggle" role="button"
+                                        aria-expanded="false">Sponsors</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+<div style="padding-top: 00px; padding-bottom: 20px;" class="block">
+    <div class="container">
+        <div class="iqua-pub-header">
+            <h1>Accepted Papers</h1>
+            <p>The 32nd IEEE <b>International Conference on Network Protocols</b> (ICNP 2024)<br/>
+                Charleroi, Belgium, October 28-31, 2024&nbsp;<a href="https://twitter.com/IEEE_ICNP?ref_src=twsrc%5Etfw"
+                                                                              class="twitter-follow-button" data-show-screen-name="false"
+                                                                              data-show-count="false">Follow @IEEE_ICNP</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="https://www.facebook.com/ieeeicnp"><img src="./assets/img/f_logo_RGB-Blue_58.png" alt="ICNP2024"
+                                                                 height="30" style="float:center; margin-bottom:10px"></a>
+            </p>
+        </div>
+        
+             <!-- <div class="middle">
+              <h1 class="soonH">COMING SOON!!!</h1>
+              <hr>
+            </div> -->
+
+        <!-- <p><img class="img-responsive" width="100%" src="./assets/img/hotspring.jpg"/></p> -->
+        <h1>Accepted Papers</h1>
+        <p><b> Non-Idle Machine-Aware Worker Placement for Efficient Distributed Training in GPU Clusters </b><br/>
+            Jin	Fang	(University of Science and Technology of China);
+        	Gongming	Zhao	(University of Science and Technology of China);
+        	Hongli	Xu	(University of Science and Technology of China);
+        	Luyao	Luo	(University of Science and Technology of China);
+        	Zhen	Yao	(Huawei Technologies Co., Ltd.);
+        	An	Xie	(Huawei Technologies Co., Ltd.); </p>
+
+        <p><b> SatFlow: Scalable Network Planning for LEO Mega-Constellations	</b><br/>
+            Sheng	Cen	(Shanghai Jiaotong University);
+            Qiying	Pan	(Shanghai Jiao Tong University);
+            Yifei	Zhu	(Shanghai Jiao Tong University);
+            Bo	Li	(Hong Kong University of Science and Technology); </p>
+
+        <p><b> SoftNB: A Fully Functional NB-IoT PHY for Various SDR Platforms  </b><br/>
+            Jingze	Zheng	(Zhejiang University);
+            Chaojie	Gu	(Zhejiang University);
+            Yuanchao	Shu	(Zhejiang University);
+            Xiuzhen	Guo	(Zhejiang University);
+            Shibo	He	(Zhejiang University);
+            Zhiguo	Shi	(Zhejiang University);
+            Jiming	Chen	(Zhejiang University); </p>
+
+        <p><b> MONR: Multi-Objective Optimizing Network Reconfiguration using Deep Reinforcement Learning	</b><br/>
+            Yuqi	Dai	(Southeast University);
+            Hua	Zhang	(Southeast University);
+            Jingyu	Wang	(Beijing University of Posts and Telecommunications);
+            Jianxin	Liao	(Beijing University of Posts and Telecommunications); </p>
+
+        <p><b> Demystifying Datapath Accelerator Enhanced Off-path SmartNIC	</b><br/>
+            Xuzheng	Chen	(Zhejiang University);
+            Jie	Zhang	(Zhejiang University);
+            Ting	Fu	(Alibaba Group);
+            Yifan	Shen	(Alibaba Group);
+            Shu	Ma	(Alibaba Group);
+            Kun	Qian	(Alibaba Group);
+            Lingjun	Zhu	(Alibaba Group);
+            Chao	Shi	(Alibaba Group);
+            Yin	Zhang	(Zhejiang University);
+            Ming	Liu	(University of Wisconsin-Madison);
+            Zeke	Wang	(Zhejiang University); </p>
+
+        <p><b> Congestion Control Optimization for Short Video Services: User-End and Edge Server Collaboration in Practice	</b><br/>
+            Jupeng	Zhang	(NetLab, Bytedance);
+            Yan	Liu	(NetLab, Bytedance);
+            Jack Lee	Yiu-Bun	(The Chinese University of Hong Kong);
+            Shengtong	Zhu	(The Chinese University of Hong Kong); </p>
+
+        <p><b> STARVERI: Efficient and Accurate Verification for Risk-Avoidance Routing in LEO Satellite Networks </b><br/>
+            Chenwei	Gu	(Tsinghua University);
+            Qian	Wu	(Tsinghua University);
+            Zeqi	Lai	(Tsinghua University);
+            Hewu	Li	(Tsinghua University);
+            Jihao	Li	(Tsinghua University);
+            Weisen	Liu	(Tsinghua University);
+            Qi	Zhang	(Zhongguancun Laboratory);
+            Jun	Liu	(Tsinghua University);
+            Yuanjie	Li	(Tsinghua University); </p>
+
+        <p><b> DeepDetangle: Deep Learning-Based Fusion of Chirp-Level and Packet-Level Features for LoRa Parallel Decoding </b><br/>
+            Weiwei	Chen	(Shanghai University);
+            Runze	Zhang	(Southeast University);
+            Xianjin	Xia	(The Hong Kong Polytechnic University);
+            Shuai	Wang	(Southeast University);
+            Shuai	Wang	(Southeast University);
+            Tian	He	(Southeast University); </p>
+
+        <p><b> DockRDMA: Hybrid RDMA Virtualization for Containerized Clouds </b><br/>
+            Xiaoyu	Li	(Tsinghua University);
+            Ran	Shu	(Microsoft Research);
+            Zhongjie	Chen	(Tsinghua University);
+            Xiaohui	Luo	(Tsinghua University);
+            Yiran	Zhang	(Tsinghua University);
+            Bo	Wang	(Tsinghua University);
+            Qingkai	Meng	(Tsinghua University);
+            Fengyuan	Ren	(Tsinghua University); </p>
+
+        <p><b> High-Speed Network-layer Forward Erasure Correction </b><br/>
+            Louis	Navarre	(UCLouvain);
+            Fran√ßois	Michel	(UCLouvain);
+            Tom	Barbette	(UCLouvain); </p>
+
+        <p><b> Proteus: A Difficulty-aware Deep Learning Framework for Real-time Malicious Traffic Detection </b><br/>
+            Chupeng	Cui	(Tsinghua University);
+            Qing	Li	(Peng Cheng Laboratory);
+            Guorui	Xie	(Tsinghua University);
+            Ruoyu	Li	(Tsinghua University);
+            Dan	Zhao	(Peng Cheng Laboratory);
+            Zhenhui	Yuan (Unaffiliated);
+            Yong	Jiang	(Tsinghua Shenzhen International Graduate School); </p>
+        
+        <p><b> Scalable, Fast, and Low-memory Lookups for Network Applications with one CRC-8 </b><br/>
+            Yi	Liu	(University of California Santa Cruz);
+            Shouqian	Shi	(University of California Santa Cruz);
+            Ruilin	Zhou	(University of California Santa Cruz);
+            Yuhang	Gan	(University of California Santa Cruz);
+            Chen	Qian	(University of California Santa Cruz); </p>
+
+        <p><b> Bidirectional Bandwidth Coordination under Half-Duplex Bottlenecks for Video Streaming </b><br/>
+            Jing	Chen	(Tsinghua University);
+            Bo	Wang	(Tsinghua University);
+            Zhiyuan	Xu	(Peking University);
+            Yan	Zhang	(Tsinghua University);
+            Minhu	Wang	(Tsinghua University);
+            Mingwei	Xu	(Tsinghua University);
+            Zili	Meng	(HKUST); </p>
+
+        <p><b> Scalable Verification of Multi-ACK Properties in Loss-Based Congestion Control Implementations </b><br/>
+            Minh	Vu	(University of Nebraska-Lincoln);
+            Hamid	Bagheri	(University of Nebraska-Lincoln);
+            Lisong	Xu	(University of Nebraska-Lincoln);
+            Wei	Sun	(Meta Platform, Inc.);
+            Mingrui	Zhang	(University of Nebraska-Lincoln); </p>
+
+        <p><b> Joint Scheduling and Power Control for Predictable Per-Packet Reliability in URLLC </b><br/>
+            Zhibo	Meng	(Iowa state university);
+            Hongwei	Zhang	(Iowa state university); </p>
+
+        <p><b> Optimizing Traffic in Public-Facing Data Centers Amid Internet Protocols </b><br/>
+            Sen	Lin	(Northwestern University);
+            Jianfeng	Wang	(Oracle America, Inc.);
+            Aleksandar	Kuzmanovic	(Northwestern University); </p>
+
+        <p><b> LINC: Enabling Low-Resource In-network Classification and Incremental Model Update </b><br/>
+            Haolin	Yan	(Tsinghua Shenzhen International Graduate School, Tsinghua University);
+            Qing	Li	(Peng Cheng Laboratory);
+            Guorui	Xie	(Tsinghua Shenzhen International Graduate School, Tsinghua University);
+            Gareth	Tyson	(Hong Kong University of Science and Technology (GZ));
+            Yong	Jiang	(Tsinghua Shenzhen International Graduate School, Tsinghua University); </p>
+
+        <p><b> Luori: Active Probing and Evaluation of Internet-wide IPv6 Fully Responsive Prefixes </b><br/>
+            Daguo	Cheng	(Tsinghua University);
+            Lin	He	(Tsinghua University);
+            Chentian	Wei	(Xidian University);
+            Qilei	Yin	(Zhongguancun Lab);
+            Boran	Jin	(Beijing University of Posts and Telecommunications);
+            Zhaoan	Wang	(Tsinghua University);
+            Xiaoteng	Pan	(Nankai University);
+            Sixu	Zhou	(Nankai University);
+            Ying	Liu	(Tsinghua University);
+            Shenglin	Zhang	(Nankai University);
+            Fuchao	Tan	(NSFOCUS, Inc.);
+            Wenmao	Liu	(NSFOCUS, Inc.); </p>
+
+        <p><b> MOMPE: Multiparty Oblivious Multivariate Polynomial Evaluation </b><br/>
+            Duobin	Lyu	(Tianjin University of Technology);
+            Hongwei	Zhang	(Tianjin University of Technology);
+            Zening	Zhao	(Tianjin University of Technology);
+            Jinsong	Wang	(Tianjin University of Technology); </p>
+
+        <p><b> Infiltrating the Sky: Data Delay and Overflow Attacks in Earth Observation Constellations </b><br/>
+            Xiaojian	Wang	(North Carolina State University);
+            Ruozhou	Yu	(North Carolina State University);
+            Dejun	Yang	(Colorado School of Mines);
+            Guoliang	Xue	(Arizona State University); </p>
+
+        <p><b> HifiCNet: High-fidelity Cloud Network Validation Platform at Scale by Hybrid Architecture </b><br/>
+            Jiawei	Liu	(University of Science and Technology of China);
+            Gongming	Zhao	(University of Science and Technology of China);
+            Hongli	Xu	(University of Science and Technology of China);
+            Baoqing	Wang	(University of Science and Technology of China);
+            Peng	Yang	(University of Science and Technology of China);
+            Chun-Jen	Chung	(Vancouver Research Center, Huawei Canada);
+            Min	Chen	(Huawei);
+            Xuwei	Yang	(Huawei); </p>
+        
+        <p><b> Impossible Trinity in Underwater Optical Wireless Communication </b><br/>
+            Qiwei	Wang	(Dalian University of Technology);
+            Chi	Lin	(Dalian University of Technology);
+            Yi	Wang	(Dalian University of Technology);
+            Yu	Sun	(Dalian University of Technology);
+            Lei	Wang	(Dalian University of Technology);
+            Xin	Fan	(Dalian University of Technology);
+            Guowei	Wu	(Dalian University of Technology); </p>
+
+        <p><b> KSpeed: Beating I/O Bottlenecks of Data Provisioning for RDMA Training Clusters </b><br/>
+            Jianbo	Dong	(Alibaba Group);
+            Hao	Qi	(University of California, Merced);
+            Tianjing	Xu	(China Construction Bank Operations Data Center);
+            Xiaoli	Liu	(Alibaba Group);
+            Chen	Wei	(Alibaba Group);
+            Rongyao	Wang	(Alibaba Group);
+            Xiaoyi	Lu	(University of California, Merced);
+            Zheng	Cao	(Alibaba Group);
+            Binzhang	Fu	(Alibaba Group); </p>
+
+        <p><b> Paraleon: Automatic and Adaptive Tuning for DCQCN Parameters in RDMA Networks </b><br/>
+            Ziteng	Chen	(Southeast University);
+            Menghao	Zhang	(Beihang University);
+            Guanyu	Li	(Huawei);
+            Jiahao	Cao	(Tsinghua University);
+            Yang	Jing	(Infrawaves);
+            Mingwei	Xu	(Tsinghua University);
+            Renjie	Xie	(Tsinghua University);
+            He	Liu	(Infrawaves);
+            Fangzheng	Jiao	(Infrawaves);
+            Xiaohe	Hu	(Infrawaves); </p>
+
+        <p><b> SpotMon: Enabling General Hotspot Monitoring in Key-Value Stores </b><br/>
+            Zhengyan	Zhou	(Zhejiang University, Quan Cheng Laboratory);
+            Jinghan	Zu	(Zhejiang University);
+            Enhao	Huang	(Zhejiang University);
+            Zizhao	Wang	(Zhejiang University);
+            Haifeng	Zhou	(Zhejiang University);
+            Dong	Zhang	(Zhicheng College, Fuzhou University);
+            Xiang	Chen	(Zhejiang University);
+            Chunming	Wu	(Zhejiang University); </p>
+        
+        <p><b> PTU: Pre-trained Model for Network Traffic Understanding </b><br/>
+            Lingfeng	Peng	(Tsinghua University);
+            Xiaohui	Xie	(Tsinghua University);
+            Sijiang	Huang	(Tsinghua University);
+            Ziyi	Wang	(Beijing University of Posts and Telecommunications);
+            Yong	Cui	(Tsinghua University); </p>
+
+        <p><b> From Entanglement Purification Scheduling to Fidelity-constrained Entanglement Routing </b><br/>
+            Ziyue	Jia	(Sun Yat-sen University);
+            Lin	Chen	(Sun Yat-sen University); </p>
+
+        <p><b> Balancing SDN Control Plane Availability and Traffic Engineering Efficiency in Data Centers </b><br/>
+            Brian	Chang	(UT Austin);
+            Keqiang	He	(Airbnb);
+            Shawn	Chen	(Carnegie Mellon University);
+            Jiaxin	Lin	(The University of Texas at Austin);
+            Mingyang	(Zhang	Google);
+            Wenfei	Wu	(Peking University);
+            Aditya	Akella	(UT Austin); </p>
+
+        <p><b> LMLoRa: Enhancing Link Performance for Mobile LoRa Networks </b><br/>
+            Ciyuan	Chen	(City University of Hong Kong, Southeast University);
+            Zhuqing	Xu	(Nanjing University of Aeronautics and Astronautics);
+            Xiaohua	Jia	(City University of Hong Kong);
+            Jingkai	Lin	(Michigan State University);
+            Runqun	Xiong	(Southeast University);
+            Dian	Shen	(Southeast University);
+            Xirui	Dong	(Southeast University);
+            Junzhou	Luo	(Southeast University, Nanjing, P.R. China); </p>
+
+        <p><b> 6Vision: Image-encoding-based IPv6 Target Generation in Few-seed Scenarios </b><br/>
+            Wenjian	Zhang	(Tsinghua University);
+            Guanglei	Song	(Zhongguancun Laboratory in Beijing);
+            Lin	He	(Tsinghua University);
+            Jinlei	Lin	(Tsinghua University);
+            Songyun	Wu	(Tsinghua University);
+            Zhiliang	Wang	(Tsinghua University, Zhongguancun Laboratory in Beijing);
+            Chenglong	Li	(Tsinghua University, Zhongguancun Laboratory in Beijing);
+            Jiahai	Yang	(Tsinghua University, Zhongguancun Laboratory in Beijing); </p>
+
+        <p><b> Rina: Enhancing Ring-AllReduce with In-network Aggregation in Distributed Model Training </b><br/>
+            Zixuan	Chen	(Fudan University);
+            Xuandong	Liu	(Fudan University);
+            Minglin	Li	(Fudan University);
+            Yinfan	Hu	(Fudan University);
+            Hao	Mei	(Fudan University);
+            Huifeng	Xing	(Fudan University);
+            Hao	Wang	(Fudan University);
+            Wanxin	Shi	(Fudan University);
+            Sen	Liu	(Fudan University);
+            Yang	Xu	(Fudan University); </p>
+
+        <p><b> HoloCube: 3D Opitcal IoT Connections via Software Defined Pepper's Ghost </b><br/>
+            Xiao	Zhang	(University of Michigan-Dearborn);
+            Li	Xiao	(Michigan State University);
+            Matt W.	Mutka	(Michigan State University); </p>
+
+        <p><b> Escape Cache Traps by Rate FeedBack for NDN Real-time Video Streaming </b><br/>
+            Zhaohua	Zhu	(Harbin Institute of Technology (Shenzhen), Pengcheng Laboratory);
+            Yongrui	Chen	(University of Chinese Academy of Sciences);
+            Lingang	Li	(Harbin Institute of Technology);
+            Zhijun	Li	(Harbin Institute of Technology);
+            Weizhe	Zhang	(Pengcheng Laboratory);
+            Yu	Zhang	(Pengcheng Laboratory); </p>
+
+        <p><b> High-Throughput Stateless-but-Complex Packet Processing within a Tbps Programmable Switch </b><span style="background-color: #F9E79F"> Best Paper </span><br/>
+            Yutaro	Yoshinaka	(Osaka University);
+            Yuki	Koizumi	(Osaka University);
+            Junji	Takemasa	(Osaka University);
+            Toru	Hasegawa	(Shimane University); </p>
+        
+        <p><b> Zebra: Accelerating Distributed Sparse Deep Training with In-network Gradient Aggregation for Hot Parameters </b><br/>
+            Heng	Pan	(Computer Network Information Center, Chinese Academy of Sciences);
+            Penglai	Cui	(ICT, CAS);
+            Zhenyu	Li	(ICT, CAS);
+            Ru	Jia	(ICT, CAS);
+            Penghao	Zhang	(ICT, CAS);
+            Leilei	Zhang	(ICT, CAS);
+            Ye	Yang	(ICT CAS; UCAS, China);
+            Jiahao	Wu	(ICT, CAS);
+            Mathy	Laurent	(University of Liege);
+            Gaogang	Xie	(CNIC CAS; UCAS, China); </p>
+        
+        <p><b> Following the Compass: LLM-Empowered Intent Translation with Manual Guidance	 </b><br/>
+            Lingqi	Guo	(Beijing University of Posts and Telecommunications);
+            Jingyu	Wang	(Beijing University of Posts and Telecommunications);
+            Jianyu	Wu	(Beijing University of Posts and Telecommunications);
+            Caijun	Yan	(Beijing University of Posts and Telecommunications);
+            Haifeng	Sun	(Beijing University of Posts and Telecommunications);
+            Zirui	Zhuang	(Beijing University of Posts and Telecommunications);
+            Qi	Qi	(Beijing University of Posts and Telecommunications);
+            Yi	Dong	(Huawei Technologies Co., Ltd.);
+            Haibao	Ren	(Huawei Technologies Co., Ltd.);
+            Jianxin	Liao	(Beijing University of Posts and Telecommunications); </p>
+
+        <!-- <p><b> Efficient Unbalanced Private Set Intersection with Continuous Updating </b><br/>
+            Biwen	Chen	(Chongqing University);
+            Ze	Jiang	(Chongqing University);
+            Xiaoguo	Li	(Chongiqng University);
+            Tao	Xiang	(Chongqing University);
+            Debiao	He	(Wuhan University); </p> -->
+
+        <p><b> NetMamba: Efficient Network Traffic Classification via Pre-training Unidirectional Mamba </b><br/>
+            Tongze	Wang	(Tsinghua University);
+            Xiaohui	Xie	(Tsinghua University);
+            Wenduo	Wang	(Tsinghua University);
+            Chuyi	Wang	(Tsinghua University);
+            Youjian	Zhao	(Tsinghua University);
+            Yong	Cui	(Tsinghua University); </p>
+
+        <p><b> TrafficGrinder: A 0-RTT-Aware QUIC Load Balancer </b><br/>
+            Robert J.	Shahla	(Technion - Israel Institute of Technology);
+            Reuven	Cohen	(Technion - Israel Institute of Technology);
+            Roy	Friedman	(Technion - Israel Institute of Technology); </p>
+
+        <p><b> FedSSA: Reducing Overhead of Additive Cryptographic Methods in Federated Learning with Sketch </b><br/>
+            Zirui	Ou	(Peking University, School of Computer Science);
+            Shujie	Han	(Northwestern Polytechnical University);
+            Qihuan	Zeng	(Peking University);
+            Qun	Huang	(Peking University, School of Computer Science); </p>
+        
+        <p><b> Efficient Routing on Quantum Networks using Adaptive Clustering </b><br/>
+            Connor	Clayton	(University of Maryland);
+            Xiaodi	Wu	(University of Maryland);
+            Bobby	Bhattacharjee	(University of Maryland); </p>
+
+        <p><b> Roundabout: Solving PFC Deadlocks with Distributed Detection and Buffer Collaboration </b><br/>
+            Kai	Lv	(Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences.);
+            Heng	Pan	(Computer Network Information Center, Chinese Academy of Sciences);
+            Chengjun	Jia	(Tsinghua University);
+            Jiaxing	Zhang	(Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences.);
+            Luyang	Li	(Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences);
+            Jianer	Zhou	(Southern University of Science and Technology, Shenzhen China);
+            Yanbiao	Li	(CNIC CAS; UCAS, China);
+            Zhenyu	Li	(ICT, CAS);
+            Gaogang	Xie	(CNIC CAS; UCAS, China); </p>
+
+        <p><b> RLGFuzz: Reinforcement Learning Guided Fuzzing with State-Coverage Mapping Environment </b><br/>
+            Yanlong	Shen	(Sun Yat-Sen University, School of Electronics and Communication Engineering);
+            Yu	Liu	(Sun Yat-Sen University, School of Electronics and Communication Engineering);
+            Ying	Zhou	(Sun Yat-Sen University, School of Electronics and Communication Engineering); </p>
+        
+        <p><b> Towards Practical Overlay Networks for Decentralized Federated Learning </b><br/>
+            Yifan	Hua	(University of California Santa Cruz);
+            Jinlong	Pang	(University of California Santa Cruz);
+            Xiaoxue	Zhang	(University of California Santa Cruz);
+            Yi	Liu	(University of California Santa Cruz);
+            Xiaofeng	Shi	(University of California Santa Cruz);
+            Bao	Wang	The (University of Utah);
+            Yang	Liu	(University of California Santa Cruz);
+            Chen	Qian	(University of California Santa Cruz); </p>
+        
+        <p><b> NDN Stateful Forwarding and LEO Satellite Network's Link Handovers </b><br/>
+            Sirapop	Theeranantachai	(UCLA);
+            Beichuan	Zhang	(University of Arizona);
+            Lixia	Zhang	(UCLA); </p>
+
+        <p><b> ConfigTrans: Network Configuration Translation Based on Large Language Models and Constraint Solving </b><br/>
+            Naigong	Zheng	(Northeastern University);
+            Fuliang	Li	(Northeastern University);
+            Ziming	Li	(Northeastern University);
+            Yu	Yang	(Hong Kong Polytechnic University);
+            Yimo	Hao	(Northeastern University);
+            Chenyang	Liu	(Northeastern University);
+            Xingwei	Wang	(Northeastern University); </p>
+        
+        <p><b> The Space above the Sky: Uniting Global-Scale Ground Station as a Service for Efficient Orbital Data Processing </b><br/>
+            Heng	Zhao	(Shanghai Jiao Tong University);
+            Sheng	Cen	(Shanghai Jiao Tong University);
+            Yifei	Zhu	(Shanghai Jiao Tong University); </p>
+        
+        <!-- <p><b> Secure Real-Time Traffic Data Aggregation Scheme Based on Privacy Computing in IoV </b><br/>
+            Jie	Cui	(Anhui University, CN);
+            Can	Liao	(Anhui University, CN);
+            Jing	Zhang	(Anhui University, CN);
+            Lu	Wei	(Anhui University, CN);
+            Irina	Bolodurina	(Orenburg State University, RU);
+            Hong	Zhong	(Anhui University, CN); </p> -->
+        
+        <p><b> Tackling Bit-Rate Variation of RTC through Frame-Bursting Congestion Control </b><br/>
+            Zhidong	Jia	(Peking University);
+            Yihang	Zhang	(Peking University);
+            Qingyang	Li	(Peking University);
+            Xinggong	Zhang	(Peking University); </p>
+        
+        <p><b> Learning-Based Heavy Hitters and Flow Frequency Estimation in Streams </b><br/>
+            Rana	Shahout	(Harvard University);
+            Michael	Mitzenmacher	(Harvard University); </p>
+
+    </div>
+<!-- <div style="padding-top: 10px;padding-bottom:5px" class="block app-block-footer">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12"><h6 class="text-uppercase">Sponsors</h6></div>
+        </div>
+    </div>
+</div>
+    <div style="padding-top:10px;padding-bottom:0" class="block app-block-footer">
+        <div class="container text-center">
+            <div class="row" style="...">
+                <div class="col-sm-4 text-center gold">
+                    <p>Gold</p>
+                    <a href="https://www.futurewei.com" target="_blank">
+                        <img src="./assets/img/futurewei-logo.png" alt="Futurewei Technologies" style="max-width: 300px;padding: 4px"></a>
+                </div>
+                <br>
+                <div class="col-sm-4 text-center">
+                    
+                    <a href="https://en.ru.is" target="_blank">
+                        <img src="./assets/img/Reykjavik_University_logo.svg" alt="Reyjavik University" style="max-width: 300px;padding: 4px"></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a href="https://tc.computer.org/tcdp/" target="_blank">
+                        <img src="./assets/img/TCDP2.png" alt="TCDP" style="max-width: 300px;padding: 4px"></a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+<div style="padding-top: 0" class="block app-block-footer">
+    <div class="container text-center">
+        <div class="row" style="padding-top: 30px;">
+            <div class="row">
+                <div class="col-lg-12"><h6 class="text-uppercase">Sponsors</h6></div>
+            </div>
+            <div class="col-sm-push-3 col-sm-4 text-center">
+                <img src="./assets/img/IEEE-CS_LogoTM-orange.png" style="max-width: 250px;"
+                     alt="IEEE Computer Society"/>
+            </div>
+            <div class="col-sm-push-3 col-sm-2 text-center">
+                <img src="assets/img/icnp_logo.png" alt="ICNP" style="max-height: 85px;padding:5px"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h6 class="text-uppercase">&copy; 2024 ICNP Organizing Committee</h6>
+                <p style="font-size: 14px; text-align: center">Last updated:
+                    <span id="lastUpdate"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of the stage  -->
+<script>
+    document.getElementById("lastUpdate").innerHTML = new Date(document.lastModified).toLocaleDateString();
+</script>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/toolkit.js"></script>
+<script src="./assets/js/application.js"></script>
+<script src="./assets/js/smoothscroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>
+        IEEE ICNP 2024
+    </title>
+    <link rel="icon" href="./assets/img/icnp_logo.png" type="image/png">
+    <link href="./assets/css/google-font.css" rel="stylesheet">
+    <link href="./assets/css/toolkit-minimal.css" rel="stylesheet">
+    <link href="./assets/css/application-minimal.css" rel="stylesheet">
+    <link href="./assets/css/iqua-pub.css" rel="stylesheet">
+    <link href="./assets/css/coming-soon.css" rel="stylesheet">
+    <style>
+        /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+        /* this chunk of css is not part of the toolkit :) */
+        body {
+            width: 1px;
+            min-width: 100%;
+            width: 100%;
+        }
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise(json)
+        });
+    </script>
+</head>
+<body>
+<!-- All other page content -->
+<nav class="navbar navbar-default navbar-static-top navbar-padded app-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="./index.html" style="padding-top: 10px; padding-bottom: 60px">
+            <img src="./assets/img/icnp_logo.svg" height="50" class="d-inline-block icon-align-vertical-middle"
+                 alt="ICNP"/>
+        </a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed p-x-0" style="padding-top: 19px; padding-bottom: 19px"
+                    data-toggle="collapse"
+                    data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown"><a href="./index.html" class="smoothScroll dropdown-toggle" role="button"
+                                        aria-expanded="false">Home</a></li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Calls<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_self" href="./cfp.html">Call for papers</a></li>
+                        <li><a target="_self" href="./cfd.html">Call for posters/demos</a></li>
+                        <li><a target="_self" href="./cfw.html">Call for workshops</a></li>
+                        <li><a target="_self" href="./travelgrant.html">Travel Grants</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Submission<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_self" href="./submission.html">Paper submission</a></li>
+                        <li><a target="_self" href="./camera.html">Camera-ready</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="./program.html" class="smoothScroll dropdown-toggle" role="button"
+                                        aria-expanded="false">Program<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_self" href="./program.html">Conference Program</a></li>
+                        <li><a target="_self" href="./acceptedpapers.html">Accepted Papers</a></li>
+                        <li><a target="_self" href="./keynote.html">Keynote</a></li>
+                        <li><a target="_self" href="./panel.html">Panel</a></li>
+                    </ul>
+
+                </li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Workshops<span class="caret"></span></a>
+                    <!-- Workshops list -->
+                    <ul class="dropdown-menu" role="menu">
+                        <!--<li><a target="_self" href="./workshops.html">Workshops</a></li>-->
+                        <li><a target="_blank" href="https://thu.aitrans2024.online/">ICNT</a> </li>
+                        <li><a target="_blank" href="https://cec24.github.io/">CEC</a> </li>
+                        <li><a target="_blank" href="./assets/markdown/NPSM.html">NPSM</a> </li>
+			<li><a target="_blank" href="https://p4.org/7th-european-p4-workshop-europ424/">EuroP4</a> </li>
+
+                        <!--<li><a target="_blank" href="https://cec23.github.io/">Cloud-Edge Continuum (CEC) Workshop</a>
+                        </li>-->
+                        <!--<li><a target="_blank" href="https://cec23.github.io/">CEC</a>
+                        </li>
+                        <li><a target="_blank" href="https://qualitativesemantic.wordpress.com">6G-SQSC</a>
+                        </li>-->
+                        <!--<li><a target="_blank" href="https://taisen.dei.uc.pt/index.html">TAISEN</a>
+                        </li>-->
+                        <!--
+                        <li><a target="_blank" href="https://spritz.math.unipd.it/events/2021/Cps_sec2021/index.html">CPS-Sec</a>
+                        </li>
+                        <li><a target="_blank" href="http://cosafe.org.uk/icav2021.html">ICAV</a></li>
+                        <li><a target="_blank" href="http://fnlab.net/NetCloud21.html">NetCloud</a></li>
+                        <li><a target="_blank" href="https://karthickj.github.io/netverify2021/">NetVerify</a></li>
+                        <li><a target="_blank" href="https://nipaa21.wordpress.com/">NIPAA</a></li>
+                        -->
+                    </ul>
+                    <!-- -->
+                </li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Attendance<span class="caret"></span></a>
+                    <!--Other pages-->
+                    <ul class="dropdown-menu" role="menu">
+                        <!--<li><a target="_self" href="./reception.html">Reception</a></li>-->
+                        <!--<li><a target="_self" href="./banquet.html">Tour and Banquet</a></li>-->
+                        <li><a target="_self" href="./Venue.html">Conference Venue</a></li>
+                        <li><a target="_self" href="./registration.html">Registration</a></li>
+                        <li><a target="_self" href="./travelgrant.html">Travel Grants</a></li>
+                        <li><a target="_self" href="./policies.html">Policies</a></li>
+                        <li><a target="_self" href="./accommodation.html">Accommodation</a></li>
+                    </ul>
+
+                </li>
+                <li class="dropdown">
+                    <a target="_self" class="smoothScroll dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-expanded="false">Committee<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a target="_self" href="./tpc.html">Technical program committee</a></li>
+                        <li><a target="_self" href="./committee.html">Organizing committee</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="./sponsors.html" class="smoothScroll dropdown-toggle" role="button"
+                                        aria-expanded="false">Sponsors</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+<div style="padding-top: 00px; padding-bottom: 20px;" class="block">
+    <div class="container">
+        <div class="iqua-pub-header">
+            <h1>Camera-Ready Submission</h1>
+            <p>The 32nd IEEE <b>International Conference on Network Protocols</b> (ICNP 2024)<br/>
+                Charleroi, Belgium, October 28-31, 2024&nbsp;<a href="https://twitter.com/IEEE_ICNP?ref_src=twsrc%5Etfw"
+                                                                              class="twitter-follow-button" data-show-screen-name="false"
+                                                                              data-show-count="false">Follow @IEEE_ICNP</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="https://www.facebook.com/ieeeicnp"><img src="./assets/img/f_logo_RGB-Blue_58.png" alt="ICNP2024"
+                                                                 height="30" style="float:center; margin-bottom:10px"></a>
+            </p>
+        </div>
+        
+             <!-- <div class="middle">
+              <h1 class="soonH">COMING SOON!!!</h1>
+            </div> -->
+
+        <!-- <p><img class="img-responsive" width="100%" src="./assets/img/building_evening.jpg"/></p> -->
+
+        <h1>General Steps</h1>
+        <ul>
+            <li>Revise your manuscript to address the comments of the reviewers.</li>
+            <li>For each paper accepted subject to review of a shepherd, please send your revised paper to your
+                assigned shepherd for review. You <strong>must</strong> have acquired the consent of your respective
+                shepherd before submitting the final version. Without consent from your shepherd, your paper will not be
+                accepted for final publication.
+            </li>
+            <li>Generate an IEEE Xplore-Compatible PDF for your paper (see the detailed instructions below)</li>
+            <li>Complete the IEEE Electronic Copyright Form (eCF) (see the detailed instructions below)</li>
+            <li>The final manuscript (in PDF only) should be submitted to the <strong>HotCRP website for your paper submission</strong> by
+                <strong>Monday,</strong> <strong>September 16th, 2024</strong>
+            </li>
+            <li>At least one author should register to the conference. At least one author of an accepted paper is
+                expected to register at the full rate of the conference. Each main conference registration may be
+                applied to at most three main conference papers (including full and short). Each workshop registration
+                may be applied to at most three workshop papers.
+            </li>
+            <li>Every paper <strong>must</strong> be presented by an author at the conference, in order for the paper to
+                appear in the conference proceedings and be submitted to the IEEE digital library. Please see the
+                detailed policy below.
+            </li>
+        </ul>
+        <h1>Paper Formatting</h1>
+        <p>The final version of papers, posters and demos should be in double-column format with standard margins and at
+            least a 10 point font. The page limits are as follows:</p>
+        <ul>
+            <li>Full papers: <strong>ten (10)</strong> pages main content, <strong>plus</strong> references;</li>
+            <li>Workshop papers: <strong>six (6)</strong> pages <strong>including</strong> references;</li>
+            <li>Posters/demos: <strong>two (2)</strong> pages <strong>excluding</strong> references, and the titles must
+                bear &quot;Poster:&quot; or &quot;Demo:&quot; prefix, respectively.</li>
+        </ul>
+        <p>Papers that exceed the page limit will not be accepted for publication. Papers should include a title and an
+            abstract of fewer than <strong>250</strong> words.</p>
+        <p>All papers must be formatted for printing on US LETTER (8.5" by 11") and must adhere to the IEEE formatting
+            requirements. For LaTeX users, please use the <strong>&quot;conference&quot;</strong> option. The template
+            should be used as is. Papers that modify the template, e.g., by picking narrower line-spacing or margins
+            than what the template defines, will be rejected for publication.</p>
+        <p>Papers must be submitted in PDF format, without including any non-standard fonts. We must be able to display
+            and print your camera-ready manuscript exactly as we receive it and using only standard tools and postscript
+            printers. Therefore, we strongly suggest that you use only standard fonts. Make sure that the paper,
+            including the figures, is readable on a black-and-white printout.  Make sure to embed all fonts, make
+            your text searchable, and suppress all page numbers in your final paper PDF.</p>
+        <h1>Author List, Paper Titles, and Presentation</h1>
+        <p>The author list <strong>must</strong> remain the same as when the paper was submitted for review, and any
+            changes in the author list or title is forbidden without prior written permission from the TPC Co-Chairs.
+        </p>
+        <p>Every paper <strong>must</strong> be presented by an author at the conference. At least one author of an
+            accepted paper is expected to register at the full rate of the conference and to present the paper at the
+            conference, in order for the paper to appear in the conference proceedings and be submitted to the IEEE
+            digital library. Please expect further information for registration.</p>
+        <p>Non-Presented Paper Policy ("No-Show Policy"): Each paper must be presented at the conference by an author of
+            that paper, unless prior approval is obtained from the TPC Co-Chairs and General Chairs. Papers that are not
+            presented by their authors may be removed from IEEE Xplore and be excluded from distribution after the
+            conference.</p>
+        <!--        <h1>Poster Formatting</h1>-->
+        <!--        <p>Poster maximum size and orientation is <strong>A0 at portrait mode</strong>. This is simply to assure that-->
+        <!--            the posters would fit on the boards which are one metre high and 2 metres wide.</p>-->
+        <h1>Generating and Submitting IEEE Xplore-Compatible PDF</h1>
+        <ul>
+            <li>Add the copyright notice to the bottom of the first page of your paper
+                <ol type="a">
+                    <li>For papers in which all authors are employed by the US government, the copyright notice is: U.S.
+                        Government work not protected by U.S. copyright
+                    </li>
+                    <li>For papers in which all authors are employed by a Crown government (UK, Canada, and Australia),
+                        the copyright notice is: 979-8-3503-5171-2/24/$31.00 &copy;2024 Crown
+                    </li>
+                    <li>For papers in which all authors are employed by the European Union, the copyright notice is:
+                        979-8-3503-5171-2/24/$31.00 &copy;2024 European Union
+                    </li>
+                    <li>For all other papers the copyright notice is: 979-8-3503-5171-2/24/$31.00 &copy;2024 IEEE</li>
+                </ol>
+                Latex users can add following lines just before <code>\begin{document}</code> for the copyright notice
+                to show up (shown below as an example for the <strong>d</strong> case above):<br/>
+                <code>\IEEEoverridecommandlockouts\IEEEpubid{\makebox[\columnwidth]{ 979-8-3503-5171-2/24/\$31.00 $\copyright$2024 IEEE \hfill}\hspace{\columnsep}\makebox[\columnwidth]{ }}</code><br/>
+                <!--                MSWord users can use: &quot;Insert&quot; -> &quot;Text box&quot;, insert the appropriate copyright-->
+                <!--                notice in the texbox, and place the box (without border) at the bottom left on the first page. Detailed-->
+                <!--                information on IEEE copyright policy and instructions for authors can be found at:-->
+                <!--                <a href="http://www.ieee.org/publications_standards/publications/rights/index.html" target="_blank">http://www.ieee.org/publications_standards/publications/rights/index.html</a>-->
+            </li>
+            <li>You can use <a href="https://ieee-pdf-express.org" target="_blank">IEEE PDF eXpress</a> in two ways:
+                <ol type="a">
+                    <li>To verify whether your final manuscript PDF is compatible to IEEE Xplore.</li>
+                    <li>To generate an IEEE Xplore-Compatible PDF using your manuscript source files (e.g. Microsoft
+                        Word, LaTeX DVI and EPS files).
+                    </li>
+                </ol>
+            </li>
+            <li>To access IEEE PDF eXpress:
+                <ol type="a">
+                    <li>Go to <a href="https://ieee-pdf-express.org" target="_blank">https://ieee-pdf-express.org</a>.</li>
+                    <li>Use <strong>Conference ID: 61940X</strong>.</li>
+                    <li>Follow the instructions in the website.</li>
+                    <!--                    <li>For additional help, please follow the instruction at <a-->
+                    <!--                            href="http://www.pdf-express.org/frhelp.asp" target="_blank">http://www.pdf-express.org/frhelp.asp</a>.-->
+                    <!--                    </li>-->
+                </ol>
+            </li>
+            <li>If you have verified your PDF to be IEEE Xplore-Compatible or have successfully generated an IEEE
+                Xplore-Compatible PDF, you can then proceed to submit the IEEE Xplore-Compatible PDF to the HOTCRP paper submission
+                site.
+                <ol type="a">
+                    <li>If your PDF is not compatible or the PDF generation fails, you must fix the errors.</li>
+                    <li>This may take several iterations over several days, so please begin this process as soon as
+                        possible.
+                    </li>
+                    <li>If your submitted paper does not pass Xplore compatible check, you will be asked to re-generate
+                        a compatible version and take the risk of not being included in the conference proceedings.
+                    </li>
+                </ol>
+            </li>
+        </ul>
+        <h1>Electronic Copyright Form</h1>
+        <p>Please fill out and submit the following form to access the IEEE Electronic Copyright Form (eCF) system. The
+            eCF system allows you to complete and sign the copyright release form. You must complete the IEEE copyright
+            release form using the eCF system in order to submit your paper. <strong>This copyright release form MUST be
+                COMPLETED when you are submitting your paper.</strong></p>
+        <p><strong>Please note:</strong> You are stating that the material in your paper is original and you have not
+            previously released copyright for this paper to another party. We cannot publish your paper without this
+            properly completed form.</p>
+
+        <form name=ECFSubmitForm onsubmit="return validateAndUpdateECFFields()"
+              action="https://ecopyright.ieee.org/ECTT/IntroPage.jsp"
+              method="post">
+            <div class="container table-responsive-lg">
+                <div class="row">
+                    <div class="col-lg-3 text-lg-right">Author names (separate with 'and')<em class="required">*</em>:
+                    </div>
+                    <div class="col-lg-9"><input type="text" name="AuthName" style="width:100%"/></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 text-lg-right">Author Emails (separate with comma)<em CLASS="required">*</em>:
+                    </div>
+                    <div class="col-lg-9"><input type="text" name="AuthEmail" style="width:100%"/></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 text-lg-right">Paper Title<em class="required">*</em>:</div>
+                    <div class="col-lg-9"><input type="text" name="ArtTitle" style="width:100%"/></div>
+                </div>
+                <input type=hidden name=PubTitle value="2024 IEEE 32nd International Conference on Network Protocols (ICNP)"/>
+                <input type=hidden name=ArtSource value="61940"/>
+                <!--<input type=hidden name=PubTitle value="2022 IEEE 29th International Conference on Network Protocols (ICNP)"/> -->
+                <input type=hidden name=ArtId value="ICNP24-generatedUUID"/>
+                <!--<input type=hidden name=ArtSource value="52882"/>-->
+                <input type=hidden name=rtrnurl value="https://icnp24.cs.ucr.edu/camera.html"/>
+                <div class="row">
+                    <div class="col-lg-3 text-lg-left">(<em class="required">*</em>&nbsp;&nbsp;Required)</div>
+                    <div class="col-lg-9"><input type="submit" name="Submit" value="Copyright Submission"/></div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script Language="JavaScript">
+    function validateAndUpdateECFFields() {
+        var returnMsg = "";
+
+        var authNameValue = document.ECFSubmitForm.AuthName.value.trim();
+        if (authNameValue == null || authNameValue.length === 0) {
+            returnMsg = returnMsg + "Author name is a required field.\n";
+        }
+
+        var emailAddress = document.ECFSubmitForm.AuthEmail.value.trim();
+        if (emailAddress == null || emailAddress.length === 0) {
+            returnMsg = returnMsg + "Email address is a required field.\n";
+        }
+
+        var artTitle = document.ECFSubmitForm.ArtTitle.value.trim();
+        if (artTitle == null || artTitle.length === 0) {
+            returnMsg = returnMsg + "Article title is a required field.\n";
+        }
+
+        if (returnMsg !== "") {
+            alert(returnMsg);
+            return false;
+        } else {
+            document.ECFSubmitForm.AuthName.value = authNameValue;
+            document.ECFSubmitForm.AuthEmail.value = emailAddress;
+            document.ECFSubmitForm.ArtTitle.value = artTitle;
+            document.ECFSubmitForm.ArtId.value = "ICNP23-" + generateUUID();
+            return true;
+        }
+    }
+
+    // http://stackoverflow.com/questions/105034/create-guid-uuid-in-javascript
+    function generateUUID() {
+        var d = new Date().getTime();
+        if (window.performance && typeof window.performance.now === "function") {
+            d += performance.now(); //use high-precision timer if available
+        }
+        var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+            var r = (d + Math.random() * 16) % 16 | 0;
+            d = Math.floor(d / 16);
+            return (c == 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+        });
+        return uuid;
+    }
+</script>
+</div>
+<!-- </div> -->
+
+
+
+
+
+
+
+
+
+</div>
+<!-- <div style="padding-top: 10px;padding-bottom:5px" class="block app-block-footer">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12"><h6 class="text-uppercase">Sponsors</h6></div>
+        </div>
+    </div>
+</div>
+<div style="padding-top:10px;padding-bottom:0" class="block app-block-footer">
+    <div class="container text-center">
+        <div class="row" style="...">
+            <div class="col-sm-4 text-center gold">
+                <p>Gold</p>
+                <a href="https://www.futurewei.com" target="_blank">
+                    <img src="./assets/img/futurewei-logo.png" alt="Futurewei Technologies" style="max-width: 300px;padding: 4px"></a>
+            </div>
+            <br>
+            <div class="col-sm-4 text-center">
+                
+                <a href="https://en.ru.is" target="_blank">
+                    <img src="./assets/img/Reykjavik_University_logo.svg" alt="Reyjavik University" style="max-width: 300px;padding: 4px"></a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a href="https://tc.computer.org/tcdp/" target="_blank">
+                    <img src="./assets/img/TCDP2.png" alt="TCDP" style="max-height: 85px;padding:5px"></a>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div style="padding-top: 0" class="block app-block-footer">
+    <div class="container text-center">
+        <div class="row" style="padding-top: 30px;">
+            <div class="row">
+                <div class="col-lg-12"><h6 class="text-uppercase">Sponsors</h6></div>
+            </div>
+            <div class="col-sm-push-3 col-sm-4 text-center">
+                <img src="./assets/img/IEEE-CS_LogoTM-orange.png" style="max-width: 250px;"
+                     alt="IEEE Computer Society"/>
+            </div>
+            <div class="col-sm-push-3 col-sm-2 text-center">
+                <img src="assets/img/icnp_logo.png" alt="ICNP" style="max-height: 85px;padding:5px"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h6 class="text-uppercase">&copy; 2024 ICNP Organizing Committee</h6>
+                <p style="font-size: 14px; text-align: center">Last updated:
+                    <span id="lastUpdate"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of the stage  -->
+<script>
+    document.getElementById("lastUpdate").innerHTML = new Date(document.lastModified).toLocaleDateString();
+</script>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/toolkit.js"></script>
+<script src="./assets/js/application.js"></script>
+<script src="./assets/js/smoothscroll.js"></script>
+</body>
+</html>

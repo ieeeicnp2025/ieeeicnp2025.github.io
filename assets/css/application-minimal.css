@@ -1,0 +1,226 @@
+/*
+ * Minimal Application level overrides
+ * (things that dont make sense in a toolkit :)
+ * copyright @colossal 2015
+ */
+/*
+ Bright: #EBDAC8 hsl(31, 47%, 85%)
+ Normal: #ECA204 hsl(41, 97%, 47%)
+ Dark: #644502 hsl(41, 97%, 20%)
+ */
+
+.block {
+    overflow: hidden;
+}
+
+/* navbar */
+.app-navbar {
+    font-size: 13px;
+    /*letter-spacing: .15em;*/
+    background-color: #ECA204;
+}
+
+.app-navbar .navbar-brand, .dropdown-menu {
+    font-size: 13px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    font-weight: 400;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > li:hover > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > .open,
+.navbar-default .navbar-nav > li:hover {
+    background-color: #644502;
+}
+
+.dropdown-menu {
+    background-color: #EBDAC8;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: #644502;
+}
+
+.dropdown-menu > li:hover {
+    background-color: #644502;
+}
+
+.dropdown-menu > li > a {
+    color: #000;
+}
+
+@media (min-width: 768px) {
+    .navbar-padded {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .dropdown {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .open .dropdown-menu {
+        background-color: #EBDAC8;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #000;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #fff;
+    }
+}
+
+/* intro block */
+.app-block-intro {
+    padding-top: 20px;
+}
+
+.app-block-intro img {
+    width: 80%;
+    margin-bottom: -45%;
+}
+
+/* block img */
+.app-block-game img,
+.app-block-stats img {
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .app-block-game-img {
+        transform: scale(1.5) !important;
+    }
+}
+
+/* stats hr */
+.app-block-stats hr {
+    width: calc(80% + 60px);
+}
+
+/* design block */
+.app-block-design > .container > .row {
+    z-index: 2;
+}
+
+.app-block-design-img {
+    margin-top: -60px;
+    margin-left: -450px;
+    float: left;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .app-block-design-img {
+        margin-top: -220px;
+        margin-left: 0;
+    }
+}
+
+/* footer block */
+.app-block-footer {
+    /*background-color: #ECA204;*/
+    background-color: #cccccc;
+    color: #000;
+
+    /* padding: 10px 10px 0px 10px; */
+    /* height: 40px; */
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+}
+
+/* transforms */
+.app-translate-15 {
+    -webkit-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+    transform: translateY(15px);
+}
+
+.app-translate-50 {
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px);
+}
+
+.app-translate-5 {
+    -webkit-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+}
+
+.app-translate-10 {
+    -webkit-transform: translateY(10%);
+    -ms-transform: translateY(10%);
+    transform: translateY(10%);
+}
+
+/* brand */
+
+@media (max-width: 400px) {
+    .app-myphone-brand {
+        font-size: 46px !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .app-myphone-brand {
+        font-size: 42px !important;
+    }
+}
+
+.container p, .container ul, .container ol {
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .juniper {
+        margin-top:30px;
+    }
+    .csutd {
+        margin-top:23px;
+    }
+    .gold {
+        border-right: solid 1px #000000;
+    }
+    .silver div {
+        text-align: right;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .gold {
+        padding-bottom: 20px;
+        border-bottom: solid 1px #000000;
+    }
+    .silver div {
+        text-align: center;
+    }
+    .silver {
+        margin-top: 20px;
+    }
+}
