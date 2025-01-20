@@ -63,7 +63,7 @@ In this keynote address, we will explore the intricate interplay between evolvin
 
 **Abstract:** Current wireless network technologies break down in applications that demand fast mobility and millisecond-scale latency, for example, in the case of closed-loop control algorithms for automated vehicles that avoid collisions or enable fine-grained manoeuvring. Conversely, swarms of drones flying under a forest canopy may spend most of their time unable to communicate, leaving only millisecond windows in which joint decision making must occur.  Striving for wireless networks that support millisecond-level mobility and latency, we introduce latency-first network design. This approach focuses on establishing fast rather than reliable software interfaces between wireless network components, fundamentally rethinking what each of those components should try to accomplish. We show how this approach leads to a collection of transceiver prototypes and network protocols that, for the first time, enable sub-millisecond data gathering and decision making in multi-hop mesh networks, while maintaining inherent mobility support. We conclude by presenting practical inroads for this foundational research line, such as its integration with mmWave radar platforms found in a vehicular context.
 
-**Bio:** Jonathan Oostvogels is postdoctoral researcher at the DistriNet research group of the Department of Computer Science, KU Leuven. In 2024, he obtained his PhD at KU Leuven summa cum laude, and was awarded with a postdoctoral research fellowship by the Research Foundation - Flanders (FWO). He is part-time visiting researcher at Inria Paris, where he is collaborating with the AIO team led by Thomas Watteyne. Jonathan’s research focuses on latency-sensitive embedded systems and wireless mesh networks. He defined and prototyped the wireless symbol-synchronous bus concept, Zero-Wire, which was successfully patented and was selected in 2023 as Research Highlight in Communications of the ACM. Jonathan received the SenSys 2020 Best Paper Award and won the Rising Star award at ACM MobiSys 2023.
+**Bio:** Jonathan Oostvogels is postdoctoral researcher at the DistriNet research group of the Department of Computer Science, KU Leuven. In 2025, he obtained his PhD at KU Leuven summa cum laude, and was awarded with a postdoctoral research fellowship by the Research Foundation - Flanders (FWO). He is part-time visiting researcher at Inria Paris, where he is collaborating with the AIO team led by Thomas Watteyne. Jonathan’s research focuses on latency-sensitive embedded systems and wireless mesh networks. He defined and prototyped the wireless symbol-synchronous bus concept, Zero-Wire, which was successfully patented and was selected in 2023 as Research Highlight in Communications of the ACM. Jonathan received the SenSys 2020 Best Paper Award and won the Rising Star award at ACM MobiSys 2023.
 
 ---
 
@@ -95,11 +95,11 @@ Please submit your paper [here](https://crp.info.ucl.ac.be/NPSM/).
 
 | Time（AOE）          | Phase                         |
 | ------------------ | ----------------------------- |
-| ~July 9, 2024~ extended to July 17, 2024       | Abstract Submission Deadline  |
-| ~July 15, 2024~ ~extended to July 24, 2024~ extended to August 2, 2024     | Paper Submission Deadline     |
-| August 31, 2024    | Paper Acceptance Notification |
-| September 16, 2024 | Camera Ready Deadline         |
-| October 28, 2024   | ICNP Workshop (@ Belgium)     |
+| ~July 9, 2025~ extended to July 17, 2025       | Abstract Submission Deadline  |
+| ~July 15, 2025~ ~extended to July 24, 2025~ extended to August 2, 2025     | Paper Submission Deadline     |
+| August 31, 2025    | Paper Acceptance Notification |
+| September 16, 2025 | Camera Ready Deadline         |
+| October 28, 2025   | ICNP Workshop (@ Belgium)     |
 
 ## Committee
 
