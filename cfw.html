@@ -243,53 +243,67 @@
 
 </div>
 <div style="padding-top: 10px; padding-bottom:5px" class="block app-block-footer">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-12">
-          <h6 class="text-uppercase">Sponsors</h6>
-        </div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-12">
+        <h6 class="text-uppercase">Sponsors</h6>
       </div>
-  
-      <!-- Bronze (왼쪽) + Gold (오른쪽) -->
+    </div>
+
+    <!-- Gold (왼쪽) + Bronze (오른쪽) -->
     <div class="row" style="padding-top: 20px; padding-bottom: 30px;">
+
       <!-- Gold -->
       <div class="col-sm-6 text-center">
         <p>Gold</p>
-        <img src="./assets/img/Huawei_Standard_logo.svg.png" alt="Huawei" style="max-width: 80px; padding: 4px;">
+        <a href="https://www.huawei.com/en/" target="_blank">
+          <img src="./assets/img/Huawei_Standard_logo.svg.png" alt="Huawei" style="max-width: 80px; padding: 4px;">
+        </a>
       </div> 
       
       <!-- Bronze -->
       <div class="col-sm-6 text-center">
         <p>Bronze</p>
-        <img src="./assets/img/BI_Logo_BK21_logo-3.png" alt="BrainKorea21" style="max-width: 220px; padding: 4px;">
+        <a href="https://en.snu.ac.kr/" target="_blank">
+          <img src="./assets/img/BI_Logo_BK21_logo-3.png" alt="BrainKorea21" style="max-width: 220px; padding: 4px;">
+        </a>
         <br>
-        <img src="./assets/img/Seoul/seoul_logo.png" alt="Seoul City" style="max-width: 220px; padding: 4px;">
+        <a href="https://english.seoul.go.kr/" target="_blank">
+          <img src="./assets/img/Seoul/seoul_logo.png" alt="Seoul City" style="max-width: 220px; padding: 4px;">
+        </a>
         <br>
-        <img src="./assets/img/Black/Samsung_Orig_Wordmark_BLACK_RGB.png" alt="Samsung" style="max-width: 220px; padding: 4px;">
+        <a href="https://www.samsung.com/us/" target="_blank">
+          <img src="./assets/img/Black/Samsung_Orig_Wordmark_BLACK_RGB.png" alt="Samsung" style="max-width: 220px; padding: 4px;">
+        </a>
+      </div>
+
+    </div>
+
+    <!-- IEEE + ICNP 로고 -->
+    <div class="row" style="padding-top: 30px;">
+      <div class="col-sm-push-3 col-sm-4 text-center">
+        <a href="https://example.com/ieee" target="_blank">
+          <img src="./assets/img/IEEE-CS_LogoTM-orange.png" style="max-width: 250px;" alt="IEEE Computer Society"/>
+        </a>
+      </div>
+      <div class="col-sm-push-3 col-sm-2 text-center">
+        <a href="https://example.com/icnp" target="_blank">
+          <img src="assets/img/icnp_logo.png" alt="ICNP" style="max-height: 85px;padding:5px"/>
+        </a>
       </div>
     </div>
-  
-      <!-- IEEE + ICNP 로고 -->
-      <div class="row" style="padding-top: 30px;">
-        <div class="col-sm-push-3 col-sm-4 text-center">
-          <img src="./assets/img/IEEE-CS_LogoTM-orange.png" style="max-width: 250px;" alt="IEEE Computer Society"/>
-        </div>
-        <div class="col-sm-push-3 col-sm-2 text-center">
-          <img src="assets/img/icnp_logo.png" alt="ICNP" style="max-height: 85px;padding:5px"/>
-        </div>
-      </div>
-  
-      <!-- Footer -->
-      <div class="row">
-        <div class="col-sm-12">
-          <h6 class="text-uppercase">&copy; 2025 ICNP Organizing Committee</h6>
-          <p style="font-size: 14px; text-align: center">
-            Last updated: <span id="lastUpdate"></span>
-          </p>
-        </div>
+
+    <!-- Footer -->
+    <div class="row">
+      <div class="col-sm-12">
+        <h6 class="text-uppercase">&copy; 2025 ICNP Organizing Committee</h6>
+        <p style="font-size: 14px; text-align: center">
+          Last updated: <span id="lastUpdate"></span>
+        </p>
       </div>
     </div>
   </div>
+</div>
 <!-- end of the stage  -->
 <script>
     document.getElementById("lastUpdate").innerHTML = new Date(document.lastModified).toLocaleDateString();
