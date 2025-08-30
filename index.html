@@ -58,9 +58,8 @@
                 width: 200px; 
             }
         }
-    
-        body {
-            padding-right: 250px; 
+        .main-content {
+            margin-right: 270px; /* 배너의 너비에 맞춰 여백 */
         }
     </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -78,16 +77,8 @@
         });
     </script>
 </head>
-<body>
-    <div class="banner-container">
-        <a href="https://seoulbleisure.com" target="_blank" rel="noopener noreferrer">
-            <img src="./assets/img/banner/seoulLeisure.png" alt="Seoul B-Leisure, Seoul's Tourism Website" class="banner-img">
-        </a>
-        <a href="https://www.youtube.com/@VisitSeoulTV" target="_blank" rel="noopener noreferrer">
-            <img src="./assets/img/banner/seoulTV.png" alt="Visit Seoul TV, Seoul's Official YouTube Channel" class="banner-img">
-        </a>
-    </div>
 
+<body>
 <nav class="navbar navbar-default navbar-static-top navbar-padded app-navbar">
     <div class="container">
         <a class="navbar-brand" href="./index.html" style="padding-top: 10px; padding-bottom: 60px">
@@ -182,8 +173,9 @@
         <!--/.nav-collapse -->
     </div>
 </nav>
+
 <div style="padding-top: 00px; padding-bottom: 20px;" class="block">
-    <div class="container">
+    <div class="main-content">
         <div class="iqua-pub-header" style="border-left: 0px solid transparent; margin: 0; padding: 0">
             <h1>
                 <img height="125px" src="./assets/img/icnp_logo.svg"><span
@@ -304,6 +296,15 @@
                 </tr>
                 </tbody>
         </table>
+    </div>
+
+    <div class="banner-container">
+        <a href="https://seoulbleisure.com" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/banner/seoulLeisure.png" alt="Seoul B-Leisure, Seoul's Tourism Website" class="banner-img">
+        </a>
+        <a href="https://www.youtube.com/@VisitSeoulTV" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/banner/seoulTV.png" alt="Visit Seoul TV, Seoul's Official YouTube Channel" class="banner-img">
+        </a>
     </div>
 </div>
 <div style="padding-top: 10px; padding-bottom:5px" class="block app-block-footer">
