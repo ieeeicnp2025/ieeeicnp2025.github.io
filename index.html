@@ -54,17 +54,29 @@
 
         .banner-container {
             position: fixed;
-            top: 0;
-            right: 0;
-            width: 300px;  /* 배너의 너비 */
-            height: 100%;  /* 배너 높이를 화면 전체로 설정 */
-            z-index: 9999; /* 다른 콘텐츠보다 위에 표시 */
+            top: 20px;  /* 상단에 약간 여백 */
+            right: 10px;  /* 오른쪽에 약간 여백 */
+            width: 250px;  /* 배너 너비 (너비를 줄임) */
+            z-index: 9999; /* 페이지 콘텐츠보다 위에 표시 */
         }
 
-        .banner-container iframe {
-            width: 100%;  /* iframe의 너비를 100%로 */
-            height: 100%;  /* iframe의 높이를 100%로 */
-            border: none;  /* iframe 테두리 제거 */
+        .banner-container img {
+            width: 100%;  /* 배너 너비를 100%로 */
+            margin-bottom: 10px;  /* 배너 간 간격 */
+        }
+    
+        /* 페이지 크기에 따라 배너 크기 조정 */
+        @media (max-width: 768px) {
+            .banner-container {
+                width: 200px;  /* 작은 화면에서 배너 너비 줄이기 */
+            }
+    
+            .banner-container img {
+                max-width: 100%;
+            }
+        }
+        body {
+            padding-right: 300px;  /* 오른쪽 여백을 남겨 배너가 콘텐츠를 침범하지 않도록 */
         }
 
     </style>
@@ -84,6 +96,7 @@
     </script>
 </head>
 <body>
+    
 <!-- All other page content -->
 <!-- <div class="under-construction-banner">
     🚧 This website is under construction. 🚧 -->
