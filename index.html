@@ -39,7 +39,7 @@
             min-width: 100%;
             width: 100%;
         }
-
+        /*
         .banner-container {
             position: fixed; 
             top: 100px; 
@@ -52,8 +52,8 @@
             width: 40%; 
             height: auto; 
             margin-bottom: 20px; 
-            display: block; /* 이미지를 블록처럼 취급 */
-        }
+            display: block; 
+        } 
     
         @media (max-width: 768px) {
             .banner-container {
@@ -61,7 +61,37 @@
                 top: 100px;
                 right: -100px;
                 width: 100px; 
-                /*padding: 0 10px;*/ /* 양쪽 여백을 주어 화면 안에 배치 */
+            }
+        }  */
+        .container {
+            display: flex;  /* Flexbox를 사용하여 배치 */
+            flex-wrap: wrap;  /* 화면 크기에 따라 자동으로 줄바꿈 */
+        }
+        
+        .main-content {
+            flex: 1;  /* 콘텐츠는 가능한 공간을 차지 */
+            margin-right: 20px;  /* 배너와 콘텐츠 사이에 간격을 두기 */
+        }
+        
+        .banner-container {
+            flex: 0 0 250px;  /* 배너는 250px 크기로 고정되지만, 크기를 줄일 수 있음 */
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        
+        /* 배너 이미지 */
+        .banner-img {
+            width: 100%;  /* 배너 이미지는 부모 컨테이너에 맞게 꽉 차도록 */
+            height: auto;
+        }
+        
+        @media (max-width: 768px) {
+            .banner-container {
+                flex: 0 0 200px;  /* 모바일에서 배너 크기를 조금 더 작게 */
+            }
+        
+            .main-content {
+                margin-right: 0;  /* 모바일에서는 오른쪽 여백을 없애기 */
             }
         }
     </style>
