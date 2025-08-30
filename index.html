@@ -41,14 +41,14 @@
         }
 
         .banner-container {
-            top: 300px; 
-            right: 10px; 
-            width: 250px; 
-            z-index: 9999; 
+            float: right; /* 오른쪽에 배치 */
+            margin-top: 20px; /* 메뉴 아래와의 간격 */
+            margin-left: 20px; /* 콘텐츠와의 간격 */
+            width: 250px; /* 배너 너비 */
         }
     
         .banner-img {
-            width: 100%; 
+            width: 60%; 
             height: auto; 
             margin-bottom: 20px; 
         }
@@ -79,11 +79,10 @@
     </script>
 </head>
 <body>
-    <div class="col-lg-4 banner-container">
+    <div class="banner-container">
         <a href="https://seoulbleisure.com" target="_blank" rel="noopener noreferrer">
             <img src="./assets/img/banner/seoulLeisure.png" alt="Seoul B-Leisure, Seoul's Tourism Website" class="banner-img">
         </a>
-        
         <a href="https://www.youtube.com/@VisitSeoulTV" target="_blank" rel="noopener noreferrer">
             <img src="./assets/img/banner/seoulTV.png" alt="Visit Seoul TV, Seoul's Official YouTube Channel" class="banner-img">
         </a>
