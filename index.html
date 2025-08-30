@@ -39,51 +39,17 @@
             min-width: 100%;
             width: 100%;
         }
-        /* .under-construction-banner {
-            background-color: #f39c12;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            font-size: 30px;
-            font-weight: bold;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1050;
-        } */
-
-        /* 배너를 오른쪽에 배치하고, 비율을 맞춰 크기 조정 */
         .banner-container {
-            position: fixed;
-            top: 20%;
-            right: 0;
-            width: 30%;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            gap: 10px;
+            padding-top: 20px; /* Provides top spacing for visual separation from the navigation bar. */
+            padding-bottom: 20px; /* Provides bottom spacing for separation from other content. */
         }
-
-        .banner {
-            width: 100%;
-            height: auto;
-            max-height: 30vh;  /* 화면의 30% 높이를 초과하지 않도록 */
-            object-fit: contain; /* 이미지 비율을 유지하면서 크기를 조절 */
+        
+        .banner-container.banner-img {
+            max-width: 100%; /* Ensures the image never exceeds the width of its parent column. */
+            height: auto; /* Maintains the image's original aspect ratio during scaling. */
+            display: block; /* Removes any default inline spacing below the image. */
+            margin-bottom: 20px; /* Adds space between the two stacked banners. */
         }
-
-        /* 화면 크기에 따라 배너 크기 조정 */
-        @media (max-width: 768px) {
-            .banner-container {
-                width: 40%; /* 화면이 작은 경우 배너 크기 조정 */
-            }
-        }
-
-        @media (max-width: 480px) {
-            .banner-container {
-                width: 50%; /* 모바일 화면에서는 더 작은 크기 */
-            }
-        }
-
     </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -101,20 +67,16 @@
     </script>
 </head>
 <body>
-    
-<!-- All other page content -->
-<!-- <div class="under-construction-banner">
-    🚧 This website is under construction. 🚧 -->
-</div>
-
-<div class="banner-container">
-    <a href="https://seoulbleisure.com" target="_blank">
-        <img src="./assets/img/banner/seoulLeisure.png" alt="Seoul B Leisure" class="banner" />
-    </a>
-    <a href="https://www.youtube.com/@VisitSeoulTV" target="_blank">
-        <img src="./assets/img/banner/seoulTV.png" alt="Visit Seoul TV" class="banner" />
-    </a>
-</div>
+    <div class="col-lg-4 banner-container">
+        <a href="https://seoulbleisure.com" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/banner/seoulLeisure.png" alt="Seoul B-Leisure, Seoul's Tourism Website" class="img-responsive banner-img">
+        </a>
+        <br>
+        <br>
+        <a href="https://www.youtube.com/@VisitSeoulTV" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/banner/seoulTV.png" alt="Visit Seoul TV, Seoul's Official YouTube Channel" class="img-responsive banner-img">
+        </a>
+    </div>
 
 <nav class="navbar navbar-default navbar-static-top navbar-padded app-navbar">
     <div class="container">
