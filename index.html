@@ -52,31 +52,36 @@
             z-index: 1050;
         } */
 
+        /* 배너를 오른쪽에 배치하고, 비율을 맞춰 크기 조정 */
         .banner-container {
             position: fixed;
-            top: 20px;  /* 상단에 약간 여백 */
-            right: 10px;  /* 오른쪽에 약간 여백 */
-            width: 250px;  /* 배너 너비 (너비를 줄임) */
-            z-index: 9999; /* 페이지 콘텐츠보다 위에 표시 */
+            top: 20%;
+            right: 0;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 10px;
         }
 
-        .banner-container img {
-            width: 100%;  /* 배너 너비를 100%로 */
-            margin-bottom: 10px;  /* 배너 간 간격 */
+        .banner {
+            width: 100%;
+            height: auto;
+            max-height: 30vh;  /* 화면의 30% 높이를 초과하지 않도록 */
+            object-fit: contain; /* 이미지 비율을 유지하면서 크기를 조절 */
         }
-    
-        /* 페이지 크기에 따라 배너 크기 조정 */
+
+        /* 화면 크기에 따라 배너 크기 조정 */
         @media (max-width: 768px) {
             .banner-container {
-                width: 200px;  /* 작은 화면에서 배너 너비 줄이기 */
-            }
-    
-            .banner-container img {
-                max-width: 100%;
+                width: 40%; /* 화면이 작은 경우 배너 크기 조정 */
             }
         }
-        body {
-            padding-right: 300px;  /* 오른쪽 여백을 남겨 배너가 콘텐츠를 침범하지 않도록 */
+
+        @media (max-width: 480px) {
+            .banner-container {
+                width: 50%; /* 모바일 화면에서는 더 작은 크기 */
+            }
         }
 
     </style>
@@ -103,7 +108,12 @@
 </div>
 
 <div class="banner-container">
-    <iframe src="banner.html" title="Banner"></iframe>
+    <a href="https://seoulbleisure.com" target="_blank">
+        <img src="./assets/img/banner/seoulLeisure.png" alt="Seoul B Leisure" class="banner" />
+    </a>
+    <a href="https://www.youtube.com/@VisitSeoulTV" target="_blank">
+        <img src="./assets/img/banner/seoulTV.png" alt="Visit Seoul TV" class="banner" />
+    </a>
 </div>
 
 <nav class="navbar navbar-default navbar-static-top navbar-padded app-navbar">
